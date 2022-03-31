@@ -22,7 +22,13 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Dashboard-in-a-day/main/Lab%205%20-%20Collaboration.md",
         "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Dashboard-in-a-day/main/Lab%206%20-%20Share%20Power%20BI%20App%20in%20your%20organization.md",
+        "Order": 6
       }
     ]
   }
 ]
+
+
