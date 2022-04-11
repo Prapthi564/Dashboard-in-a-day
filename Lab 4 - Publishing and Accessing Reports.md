@@ -7,7 +7,6 @@
 <!-- TOC -->
 
 - [Introduction](#introduction)
-- [Power BI Desktop – Creating a mobile view](#power-bi-desktop-creating-a-mobile-view)
 - [Power BI Service](#power-bi-service)
   - [Power BI Service – Publishing Reports](#power-bi-desktop-publishing-reports)
   - [Power BI – Building a Dashboard](#power-bi-desktop-building-a-dashboard)
@@ -24,54 +23,6 @@ At the end of this lab, you will have completed a full report that is ready to b
 The flow of this document includes screenshots to provide a visual aid for you and text descriptions of the steps you need to follow. In the screenshots, sections are highlighted with red or orange boxes to indicate the action or area on which you need to focus.
 
 **NOTE:** This lab uses real, anonymized data provided by ObviEnce, LLC. Visit their site to learn about their services: www.obvience.co[m](http://www.obvience.com/)[.](http://www.obvience.com/)[ ](http://www.obvience.com/)This data is the property of ObviEnce. LLC and has been shared to demonstrate Power BI functionality with industry sample data. Any use of this data must include this attribution to ObviEnce, LLC.
-
-## Power BI Desktop – Creating a mobile view
-
-   ![](Images/powerbi-04-01.png)
-
-1. Navigate to the **DIAD** folder and then to the **Reports** folder (/DIAD/Reports) folder.
-
-2. Open the **DIAD Final Report.pbix** file.
-
-This file uses the same dataset that you used for the lab. We have added more visuals and performed additional formatting in the report. Feel free to explore the report.
-
-3. Highlight the **Market Analysis** title and change the text color to black.
-
-   ![](Images/powerbi-04-02.png)
-
-4. Click the **View** ribbon and then click **Mobile layout**.
-
-   ![](Images/powerbi-04-03.png)
-
-5. Drag the **Market Analysis** title to the top of the phone layout.
-
-   ![](Images/powerbi-04-04.png)
-
-6. Click on the View tab and turn on the Selection pane. This allows you to change the layer order while creating a mobile layout.
-
-   ![](Images/powerbi-04-05.png)
-
-7. Click on the View tab and turn off Gridlines and Snap to Grid and turn off the Selection pane.
-
-   ![](Images/powerbi-04-06.png)
-
-8. Drag the **Market Share** card onto the phone layout and then resize it.
-
-   ![](Images/powerbi-04-07.png)
-
-9. Drag the **% Growth by Manufacturer** chart next to the card on the phone layout.
-
-   ![](Images/powerbi-04-08.png)
-
-10. Drag the **Revenue by Year** and **Manufacturer** line chart below the card on the phone layout. Resize the line chart to stretch across the phone layout.
-
-    ![](Images/powerbi-04-09.png)
-
-11. Drag the **map** below the line chart on the phone layout, resize the map, and then save the file.
-
-    ![](Images/powerbi-04-10.png)
-
-12. Click **Save** to save your workbook.
 
 ## Power BI Service
 
