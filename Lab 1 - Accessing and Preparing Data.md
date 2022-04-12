@@ -52,7 +52,7 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
 
  3. **Sign in** using your Power BI credentials.
 
-    > **Note**: Please use the **Username** and **Password** credentials details from the Environment Details tab.
+    > **Note**: Please use the **Username** and **Password** credentials details from the Environment Details tab. When prompted to sign-in select the odl user account.
 
  4. You will see the startup screen opens. Click on the **X** on the top right corner of the dialog box to close it.
 
