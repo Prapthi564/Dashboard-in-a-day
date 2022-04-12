@@ -389,7 +389,7 @@ To analyze the Sales of all countries, it is convenient to have a single **Sales
 
 31. Click **Sales** in the Queries window in the left panel as shown above.
 
-32. From the ribbon click **Home** and then click **Append Queries**. 
+32. From the ribbon click **Home** and then click **Append Queries** under Combine. 
 
     The **Append** dialog box opens. There is an option to append **Two tables** or **Three or more tables**. 
     
