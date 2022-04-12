@@ -299,7 +299,7 @@ In the Product query, notice the Product column. It looks like the product name 
 
     >**Note**: The **Select or enter delimiter** drop-down menu has some of the standard delimiters like comma, colon, and so on.
 
-11. Notice that in the text area, there is a hyphen (-). Power BI assumes we want to split by hyphen. Remove the hyphen symbol and enter the pipe symbol (|) as shown in the screenshot.
+11. Notice that in the text area, there is a hyphen (-). Power BI assumes we want to split by hyphen. Remove the hyphen symbol and enter the **pipe symbol** (|) as shown in the screenshot.
 
 12. Click **OK**.
 
