@@ -275,9 +275,9 @@ Notice that the **Category** column has a lot of null values. Hover over the gre
 
    ![](Images/powerbi-01-26.png)
 
-4. In the left panel, click the Product Query. 
+4. In the left panel, click the **Product Query**. 
 
-5. Click the Category column.
+5. Click the **Category** column.
 
 6. From the ribbon, click Transform, click Fill, and then click Down.
 
