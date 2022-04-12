@@ -168,7 +168,7 @@ You can load the files one at a time, like how you loaded the US Sales data, but
 
 31. In the **Browse** for Folder dialog box, navigate to the location where you unzipped the class files.
 
-32. Open the **DIAD** folder.
+32. Open the **This PC> Windows(C:)> DIAD**.
 
 33. Open the **Data** folder.
 
