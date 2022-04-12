@@ -84,7 +84,7 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
     
    >**Note**: Power BI Desktop has the capability to connect to 300+ data sources. We are using CSV and Excel data files in this lab for simplicity. If you would like a full list of data sources, please visit this link: https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources
 
-12. Browse to **C:\DIAD\**, double-click **Data**, double-click the **USSales** folder, and then click **sales.csv**.
+12. Browse to **Local Disk(C:)> DIAD**, double-click **Data**, double-click the **USSales** folder, and then click **sales.csv**.
 
 13. Click the **Open** button.
 
