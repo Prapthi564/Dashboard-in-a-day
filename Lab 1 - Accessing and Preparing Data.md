@@ -88,7 +88,7 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
 
 13. Click the **Open** button.
 
-    ![](Images/powerbi-01-06.png)
+    ![](Images/ussales_file.png)
     
     Power BI detects the data type within each column. There are options to detect the data type based on the first 200 rows, based on the entire dataset or to not detect the data. Since our dataset is large and it will take time and resources to scan the complete dataset, we will leave the default option of selecting the dataset based on the first 200 rows.
     
