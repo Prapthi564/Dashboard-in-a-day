@@ -335,7 +335,7 @@ In the **Geography** query, notice that the first two rows are informational. Th
 
 20. Click **OK**.
 
-    ![](Images/powerbi-01-34.png)
+    ![](Images/remove_row.png)
     
 Notice the first row in the Geography query is now the column header. Let’s make it a header.
 
