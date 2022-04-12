@@ -339,6 +339,10 @@ In the **Geography** query, notice that the first two rows are informational. Th
     
 Notice the first row in the Geography query is now the column header. Let’s make it a header.
 
+>**Note**: If in collapsed state we can directly select the **Remove Rows** under **Reduce Rows**
+
+   ![](Images/powerbi_01_54.png)
+
 21. With **Geography** query selected in the left panel, from the ribbon click **Home**, and then click **Use First Row as Headers**.
 
 With that step, Power BI will predict the data type of each field again.
