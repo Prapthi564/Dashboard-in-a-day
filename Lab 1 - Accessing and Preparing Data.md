@@ -88,7 +88,7 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
 
 13. Click the **Open** button.
 
-    ![](Images/ussales_file.png)
+    ![](Images/ussales_file2.png)
     
     Power BI detects the data type within each column. There are options to detect the data type based on the first 200 rows, based on the entire dataset or to not detect the data. Since our dataset is large and it will take time and resources to scan the complete dataset, we will leave the default option of selecting the dataset based on the first 200 rows.
     
@@ -124,7 +124,7 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
 
 19. Click the **Open** button. The **Navigator** dialog box opens.
 
-    ![](Images/powerbi-01-11.png)
+    ![](Images/ussales_file.png)
     
 20. The **Navigator** dialog box lists three sheets that are in the Excel workbook. It also lists the **Product** table. Click **product** in the panel on the left. In the preview panel, notice that the first row is the headers. This is not part of the data.
 
