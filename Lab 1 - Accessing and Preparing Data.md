@@ -222,9 +222,7 @@ There is also an option to select each individual file in the folder (using **Ex
     
     If you compare the **InternationalSales** and the **sales** table, you will see the **InternationalSales** table contains two new columns, **Source.Name** and **Country**.
 
-44. We do not need the **Source.Name** column. Click the **Source.Name** column and from the ribbon, click **Home**, click **Remove Columns**, and then click **Remove Columns** again.
-
-    ![](Images/powerbi-01-22.png)
+44. We do not need the **Source.Name** column. Click the **Source.Name** column and right click and select **Remove** option or you can select the **Source.Name** column and then click on **Manage Coloumns** and then select **Remove Coloumns**.
     
 45. Next, click the drop-down menu next to the **Country** column to see the unique values. 
 
