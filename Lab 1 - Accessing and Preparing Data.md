@@ -120,7 +120,7 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
 
     ![](Images/excel_workbook.png)
     
-18. Browse to **DIAD**, double-click **Data**, double-click the **USSales** folder, and then click **bi_dimensions.xlsx**.
+18. Browse to **Local Disk(C:)> DIAD**, double-click **Data**, double-click the **USSales** folder, and then click **bi_dimensions.xlsx**.
 
 19. Click the **Open** button. The **Navigator** dialog box opens.
 
