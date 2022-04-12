@@ -353,14 +353,14 @@ Notice that the column **Zip** was changed to the number data type. Let’s chan
 
 24. From the left panel, click the **Manufacturer** query. Notice the bottom three rows are not part of the data. Let’s remove them.
 
-25. From the ribbon, click **Home**, click **Remove Rows**, and then click **Remove Bottom Rows**.
+25. From the ribbon, click **Home**, click **Reduce Rows**, then click **Remove Rows** dropdown and then select **Remove Bottom Rows**
+ 
+    ![](Images/remove_bottomrow.png)
 
 26. The **Remove Bottom Rows** dialog box opens. Enter **3** in the **Number of rows text box**.
 
 27. Click **OK**.
-
-    ![](Images/powerbi-01-36.png)
-
+   
 ### Power BI Desktop – Transposing data
 
 28. From the left panel, click the **Manufacturer** Query. Notice that the **ManufacturerID**, **Manufacturer**, and **Logo** data is laid across in rows. Also notice that the header is not useful. We need to transpose the table to meet our needs.
