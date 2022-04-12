@@ -329,7 +329,7 @@ In the **Geography** query, notice that the first two rows are informational. Th
 
 17. In the left panel, click the **Geography** query.
 
-18. From the ribbon, click **Home**, click **Remove Rows**, and then click **Remove Top Rows**.
+18. From the ribbon, click **Home**, click **Reduce Rows**, and then click **Remove Rows** dropdown and then select **Remove Top Rows**
 
 19. The **Remove Top Rows** dialog box opens. Enter **2** in the text box since we want to remove the top informational data row and the blank second row.
 
