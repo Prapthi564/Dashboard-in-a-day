@@ -56,37 +56,37 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
 
  4. You will see the startup screen opens. Click on the **X** on the top right corner of the dialog box to close it.
 
- 1. New format pane feature is released as part of the February 2022 update. This feature is in **Preview**. We will disable this feature for the labs. To disable it, navigate to **File -> Options and settings -> Options**. Options dialog opens. On the left panel select **Preview features** and **uncheck New Format pane** and ensure **Azure map visual** and **Shape map visual** options are checked and select **OK** to close the dialog. You may have to **restart** Power BI Desktop.
+ 5. New format pane feature is released as part of the February 2022 update. This feature is in **Preview**. We will disable this feature for the labs. To disable it, navigate to **File -> Options and settings -> Options**. Options dialog opens. On the left panel select **Preview features** and **uncheck New Format pane** and ensure **Azure map visual** and **Shape map visual** options are checked and select **OK** to close the dialog. You may have to **restart** Power BI Desktop.
  
     ![](Images/azure_map.png)
 
   Let’s set the **Locale** to US English to make it convenient in the rest of this lab.
  
-5. From the ribbon, click **File**, then click **Options and settings**, then click **Options**.
+6. From the ribbon, click **File**, then click **Options and settings**, then click **Options**.
  
     ![](Images/powerbi-01-03.png)
  
-6. In the left panel of **Options** dialog box, click **Regional Settings** under Current File.
+7. In the left panel of **Options** dialog box, click **Regional Settings** under Current File.
 
-7. From the Locale drop-down, click **English (United States)**.
+8. From the Locale drop-down, click **English (United States)**.
 
-8. Click **OK** to close the dialog box.
+9. Click **OK** to close the dialog box.
 
     ![](Images/powerbi-01-04.png)
     
     The next step is to load data to Power BI Desktop. We will load USA Sales data which is in CSV files.
     
-9. From the ribbon, click **Home** and then click the **Get Data** drop-down arrow.
+10. From the ribbon, click **Home** and then click the **Get Data** drop-down arrow.
 
-10. Click **Text/CSV**.
+11. Click **Text/CSV**.
 
-    ![](Images/powerbi-01-05.png)
+    ![](Images/getdata.png)
     
    >**Note**: Power BI Desktop has the capability to connect to 300+ data sources. We are using CSV and Excel data files in this lab for simplicity. If you would like a full list of data sources, please visit this link: https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources
 
-11. Browse to **DIAD**, double-click **Data**, double-click the **USSales** folder, and then click **sales.csv**.
+12. Browse to **C:\DIAD\**, double-click **Data**, double-click the **USSales** folder, and then click **sales.csv**.
 
-12. Click the **Open** button.
+13. Click the **Open** button.
 
     ![](Images/powerbi-01-06.png)
     
@@ -98,7 +98,7 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
       - **Transform** Data allows you to perform data shaping operations such as merging columns, adding additional columns, changing data types of columns as well as bringing in additional data. 
       - **Cancel** gets you back to the main canvas. 
 
- 13. Click Transform Data as shown in the screenshot. A new window opens.
+ 14. Click Transform Data as shown in the screenshot. A new window opens.
 
      ![](Images/powerbi-01-07.png)
      
@@ -108,37 +108,37 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
      
      >**Note**: You will bring in sales data from other countries as well as performing certain data shaping operations.
 
-14. Notice that Power BI has set the **Zip** field to the data type **Whole Number**. To ensure that the leading zero is not dropped from Zip codes that start with zero, we will format them as **Text**. To do this, select the **Zip column**. Then, from the ribbon, click **Home**, click **Data Type**, and change it to **Text**.
+15. Notice that Power BI has set the **Zip** field to the data type **Whole Number**. To ensure that the leading zero is not dropped from Zip codes that start with zero, we will format them as **Text**. To do this, select the **Zip column**. Then, from the ribbon, click **Home**, click **Data Type**, and change it to **Text**.
 
-15. The **Change Column Type** dialog box opens. Click the **Replace Current** button which overwrites Power BI’s predicted data type.
+16. The **Change Column Type** dialog box opens. Click the **Replace Current** button which overwrites Power BI’s predicted data type.
 
     ![](Images/powerbi-01-09.png)
     
     Now let’s get the data that is in Excel source file.
     
-16. From the ribbon, click **Home**, click **New Source**, and click then **Excel**.
+17. From the ribbon, click **Home**, click **New Source**, and click then **Excel**.
 
-    ![](Images/powerbi-01-10.png)
+    ![](Images/excel_workbook.png)
     
-17. Browse to **DIAD**, double-click **Data**, double-click the **USSales** folder, and then click **bi_dimensions.xlsx**.
+18. Browse to **DIAD**, double-click **Data**, double-click the **USSales** folder, and then click **bi_dimensions.xlsx**.
 
-18. Click the **Open** button. The **Navigator** dialog box opens.
+19. Click the **Open** button. The **Navigator** dialog box opens.
 
     ![](Images/powerbi-01-11.png)
     
-19. The **Navigator** dialog box lists three sheets that are in the Excel workbook. It also lists the **Product** table. Click **product** in the panel on the left. In the preview panel, notice that the first row is the headers. This is not part of the data.
+20. The **Navigator** dialog box lists three sheets that are in the Excel workbook. It also lists the **Product** table. Click **product** in the panel on the left. In the preview panel, notice that the first row is the headers. This is not part of the data.
 
-20. Now, deselect **product** from the left panel and click **Product_Table**. Notice that this table has only the contents of the named table. This is the data we need.
+21. Now, deselect **product** from the left panel and click **Product_Table**. Notice that this table has only the contents of the named table. This is the data we need.
 
     ![](Images/powerbi-01-12.png)
     
    >**Note**: Table names are differentiated from Worksheet names by using different icons.
     
-21. From the left panel, click **geo**. In the preview panel, notice that the first few rows are headers and are not part of the data. We will remove them shortly.
+22. From the left panel, click **geo**. In the preview panel, notice that the first few rows are headers and are not part of the data. We will remove them shortly.
 
-22. From the left panel, click **manufacturer**. In the preview panel, notice that the last couple of rows are footers and are not part of the data. We will remove them shortly.
+23. From the left panel, click **manufacturer**. In the preview panel, notice that the last couple of rows are footers and are not part of the data. We will remove them shortly.
 
-23. Make sure that **Product_Table**, **geo** and **manufacturer** are selected in the left panel, and then click **OK**. Notice all that three sheets are added as queries in the Query Editor.
+24. Make sure that **Product_Table**, **geo** and **manufacturer** are selected in the left panel, and then click **OK**. Notice all that three sheets are added as queries in the Query Editor.
 
     ![](Images/powerbi-01-13.png)
 
@@ -150,33 +150,33 @@ To analyze all the data together, you import the new data from each of the subsi
 
 You can load the files one at a time, like how you loaded the US Sales data, but Power BI provides an easier way to load all the files in a folder together.
 
-24. On the **Home** tab of the Query Editor, click on the **New Source** drop-down menu.
+25. On the **Home** tab of the Query Editor, click on the **New Source** drop-down menu.
 
-25. Click **More…** as shown in the figure.
+26. Click **More…** as shown in the figure.
 
     ![](Images/powerbi-01-14.png)
     
-26. The Get Data dialog box opens.
+27. The Get Data dialog box opens.
 
-27. In the **Get Data** dialog box, click **Folder** as shown in the diagram.
+28. In the **Get Data** dialog box, click **Folder** as shown in the diagram.
 
-28. Click **Connect** and the **Folder** dialog box will open.
+29. Click **Connect** and the **Folder** dialog box will open.
 
     ![](Images/powerbi-01-15.png)
     
-29. Click the **Browse…** button.
+30. Click the **Browse…** button.
 
-30. In the **Browse** for Folder dialog box, navigate to the location where you unzipped the class files.
+31. In the **Browse** for Folder dialog box, navigate to the location where you unzipped the class files.
 
-31. Open the **DIAD** folder.
+32. Open the **DIAD** folder.
 
-32. Open the **Data** folder.
+33. Open the **Data** folder.
 
-33. Click the **InternationalSales** folder.
+34. Click the **InternationalSales** folder.
 
-34. Click **OK** (to close the **Browse for Folder** dialog box).
+35. Click **OK** (to close the **Browse for Folder** dialog box).
 
-35. Click **OK** (to close the **Folder** dialog box).
+36. Click **OK** (to close the **Folder** dialog box).
 
     ![](Images/powerbi-01-16.png)
     
@@ -184,7 +184,7 @@ You can load the files one at a time, like how you loaded the US Sales data, but
 
 The dialog box will display the list of files in the folder.
 
-36. Click **Combine & Transform Data**.
+37. Click **Combine & Transform Data**.
  
     ![](Images/powerbi-01-17.png)
     
@@ -194,13 +194,13 @@ The **Combine Files** dialog box will open. By default, Power BI will again dete
 
 There is also an option to select each individual file in the folder (using **Example File** drop-down) to validate the format of the files.
 
-37. Click **OK**.
+38. Click **OK**.
 
     ![](Images/powerbi-01-18.png)
 
     You will now be in the **Query Editor** window with a new query named **InternationalSales**. 
 
-38. If you do not see the **Queries** pane on left, click on the > (greater than) icon to expand. 
+39. If you do not see the **Queries** pane on left, click on the > (greater than) icon to expand. 
 
 40. If you do not see the **Query Settings** pane on the right as shown in the figure, click on **View** in the ribbon and click **Query Settings** to see the pane. 
 
@@ -230,15 +230,13 @@ There is also an option to select each individual file in the folder (using **Ex
 
 46. You will only see Australia as shown in the figure. By default, Power BI only loads the first 1000 rows. Click **Load more** to validate that you have data from the various countries included.
 
-47. 
-
    ![](Images/powerbi-01-23.png)
    
-48.  You will see the countries (blank), Australia, Canada, Germany, Japan, Mexico, and Nigeria.
+  Now, you will see the countries (blank), Australia, Canada, Germany, Japan, Mexico, and Nigeria.
 
    ![](Images/powerbi-01-24.png)
     
-49. Click **OK**.
+47. Click **OK**.
 
    >**Note**: You can perform various types of filters, sorting operations using the drop-down to verify the imported data. 
 
