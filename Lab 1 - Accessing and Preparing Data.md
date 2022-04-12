@@ -56,9 +56,11 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
 
  4. You will see the startup screen opens. Click on the **X** on the top right corner of the dialog box to close it.
 
- 1. New format pane feature is released as part of the February 2022 update. This feature is in **Preview**. We will disable this feature for the labs. To disable it, navigate to **File -> Options and settings -> Options**. Options dialog opens. On the left panel select **Preview features** and **uncheck New Format pane**. Select **OK** to close the dialog. You may have to **restart** Power BI Desktop.
+ 1. New format pane feature is released as part of the February 2022 update. This feature is in **Preview**. We will disable this feature for the labs. To disable it, navigate to **File -> Options and settings -> Options**. Options dialog opens. On the left panel select **Preview features** and **uncheck New Format pane** and ensure **Azure map visual** and **Shape map visual** options are checked and select **OK** to close the dialog. You may have to **restart** Power BI Desktop.
+ 
+    ![](Images/azure_map.png)
 
-    Let’s set the **Locale** to US English to make it convenient in the rest of this lab.
+  Let’s set the **Locale** to US English to make it convenient in the rest of this lab.
  
 5. From the ribbon, click **File**, then click **Options and settings**, then click **Options**.
  
