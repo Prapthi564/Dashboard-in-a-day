@@ -310,7 +310,7 @@ Page-level filters apply to all visuals on the page. Visual-level filters apply 
 
 Now, let’s add a visual that provides sales information over time
 
-72. Begin by clicking on the white space in the canvas.
+72. Begin by clicking on the white space in the canvas and select **Clusterd column chart** from Visulization.
 
 73. Click the checkbox next to the **Date** field in the **Sales** table. Notice that a Date Hierarchy is created. 
 
