@@ -376,8 +376,6 @@ Notice that the fourth-quarter sales have always been high, but in 2021 there wa
 
 92. Now let’s expand down to the month level. Click on the split arrow icon on the top right of the **Revenue by Year** visual. This expands down to the next level of the hierarchy, which is months for all the years.
 
-    ![](Images/powerbi-02-38.png)
-
 There is a lot of information in the visual and we must scroll left and right to compare.
 
 ## References
