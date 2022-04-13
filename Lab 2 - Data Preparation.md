@@ -1,6 +1,6 @@
 ![Microsoft Power Platform.](Images/powerbi-welcome-2.png 'Microsoft Power Platform')
 
-# Lab 2 - Preparing Data
+# Lab 2 - Data Preparation
 
 **Contents** 
 
