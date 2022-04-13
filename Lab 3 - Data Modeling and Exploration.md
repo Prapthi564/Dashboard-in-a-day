@@ -130,7 +130,7 @@ concatenate the **Zip** and **Country** columns to create a unique value field.
 
     You will notice that IntelliSense appears guiding you to choose the correct column. The language you used to create this new column is called Data Analysis Expression (DAX). We are connecting columns (Zip and Country) in each row by using the “&” symbol. The icon with an (fx), near the new column ZipCountry, indicates that you have a column containing an expression, also referred to as a calculated column.
 
-**IMPORTANT:heavy_exclamation_mark:**: If you get an error creating a new column, make sure your Zip column is the Text Data Type.
+**IMPORTANT**: If you get an error creating a new column, make sure your Zip column is the Text Data Type.
 
 >**Note**: An alternative way to add a new column is by selecting the table, click **Table Tools**, click **New Column** or **Modeling**, and then click **New Column** from the ribbon.
 
