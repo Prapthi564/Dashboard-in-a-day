@@ -30,7 +30,7 @@ The lab includes steps for the user to follow along with associated screenshots 
 
 In this section, we will learn about the [key parts of the Power BI desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-query-overview/). We will model and explore the data and build visuals.
 
-## Power BI Desktop - Layout 
+### Task 1 - Power BI Desktop - Layout 
 
 Let’s start with the main Power BI Desktop window and become familiar with the distinct sections available.
 
@@ -81,7 +81,7 @@ In this lab, we will be using the 1 to many type of relationship, the most commo
 
     ![](Images/powerbi-02-07.png)
     
-## Power BI Desktop – Data Exploration 
+### Task 2 - Power BI Desktop – Data Exploration 
 
 Now that we have loaded data, let’s start with analyzing sales by country.
 
