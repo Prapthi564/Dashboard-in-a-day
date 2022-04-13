@@ -13,7 +13,7 @@
 
 ## Introduction
 
-**IMPORTANT** :heavy_exclamation_mark: : Please start this lab with the provided **Lab 2 solution.pbix** file found in the **"C:\DIAD\Reports"** in the Lab Virtual machine.
+**IMPORTANT**: Please start this lab with the provided **Lab 2 solution.pbix** file found in the **"C:\DIAD\Reports"** in the Lab Virtual machine.
 
 At the end of this lab, you will have completed a full report that is ready to be published to the Power BI Service. In the report, you will have learned how to do conditional formatting, add a logo to the manufacturer filter, import a custom visual, and apply a custom theme to the report. By the end of this lab, you will have also learned how to add bookmarks to tell a story about the report.
 
@@ -165,7 +165,7 @@ In our scenario, the Marketing department has provided standard color themes to 
 
 39. From the ribbon, click **View**, click **Themes**, and then click **Browse for themes**.
 
-40. A file browser dialog box opens. Navigate to the **Data** folder then the **Theme** folder (/Data/Theme).
+40. A file browser dialog box opens. Navigate to the **Data** folder then the **Theme** folder (C:\DIAD\Data\Theme).
 
 41. Click the **DIADTheme2** file and then click **Open**.
 
