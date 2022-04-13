@@ -1,6 +1,6 @@
-![Microsoft Power Platform.](Images/powerbi-welcome-3.png 'Microsoft Power Platform')
+![Microsoft Power Platform.](Images/powerbi-welcome-4.png 'Microsoft Power Platform')
 
-# Lab 3 - Data Visualization
+# Lab 4 - Data Visualization
 
 **Contents** 
 
@@ -15,7 +15,7 @@
 
 This document is lab three out of five total labs.
 
-Please continue to use your file after completing Lab 2. If you are joining the DIAD at this point or were unable to complete previous labs, please start this lab with the provided **Lab 2 solution.pbix** file found in the Reports folder.
+Please continue to use your file after completing Lab 3. If you are joining the DIAD at this point or were unable to complete previous labs, please start this lab with the provided **Lab 3 solution.pbix** file found in the Reports folder.
 
 At the end of this lab, you will have completed a full report that is ready to be published to the Power BI Service. In the report, you will have learned how to do conditional formatting, add a logo to the manufacturer filter, import a custom visual, and apply a custom theme to the report. By the end of this lab, you will have also learned how to add bookmarks to tell a story about the report.
 
