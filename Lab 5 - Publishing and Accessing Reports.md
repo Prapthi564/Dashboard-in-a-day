@@ -14,10 +14,6 @@
 
 ## Introduction
 
-This document is lab four out of five total labs.
-
-Please continue to use your file after completing Lab 4. If you are joining the DIAD at this point or were unable to complete previous labs, please start this lab with the provided **DIAD Final Report.pbix** file located in the **Reports** folder.
-
 At the end of this lab, you will have completed a full report that is ready to be published to the Power BI Service. By creating the report, you will have learned how to do conditional formatting, add a logo to the manufacturer filter, import a custom visual, and apply a custom theme to the report. By the end of this lab, you will have also learned how to add bookmarks to tell a story about the report.
 
 The flow of this document includes screenshots to provide a visual aid for you and text descriptions of the steps you need to follow. In the screenshots, sections are highlighted with red or orange boxes to indicate the action or area on which you need to focus.
