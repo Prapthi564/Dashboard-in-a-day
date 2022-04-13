@@ -1,6 +1,6 @@
-![Microsoft Power Platform.](Images/powerbi-welcome-4.png 'Microsoft Power Platform')
+![Microsoft Power Platform.](Images/powerbi-welcome-5.png 'Microsoft Power Platform')
 
-# Lab 4 - Publishing and Accessing Reports
+# Lab 5 - Publishing and Accessing Reports
 
 **Contents** 
 
@@ -16,7 +16,7 @@
 
 This document is lab four out of five total labs.
 
-Please continue to use your file after completing Lab 3. If you are joining the DIAD at this point or were unable to complete previous labs, please start this lab with the provided **DIAD Final Report.pbix** file located in the **Reports** folder.
+Please continue to use your file after completing Lab 4. If you are joining the DIAD at this point or were unable to complete previous labs, please start this lab with the provided **DIAD Final Report.pbix** file located in the **Reports** folder.
 
 At the end of this lab, you will have completed a full report that is ready to be published to the Power BI Service. By creating the report, you will have learned how to do conditional formatting, add a logo to the manufacturer filter, import a custom visual, and apply a custom theme to the report. By the end of this lab, you will have also learned how to add bookmarks to tell a story about the report.
 
@@ -28,7 +28,7 @@ The flow of this document includes screenshots to provide a visual aid for you a
 
 You will now leverage a report authored using Power BI Desktop to create a dashboard for the VanArsdel data analysis team and CMO. A Power BI Desktop file with additional reports and visuals is provided. Please use this file for the next section of the lab.
 
-### Power BI Service – Publishing Report
+### Task 1 - Power BI Service – Publishing Report
 
    ![](Images/powerbi-04-11.png)
 
@@ -132,7 +132,7 @@ Now that we have published the report to the Power BI service, let’s navigate 
   
 Once you are in the browser, in the left panel notice that under **DIAD\_<youremailaddress>**, you see **Reports** has the **DIAD Final Report**, and **Datasets**, has the **DIAD Final Report**.
 
-### Power BI – Building a Dashboard
+### Task 2- Power BI – Building a Dashboard
 
 In this section, we will create a dashboard that combines data from the **Market Share** report. 
   
