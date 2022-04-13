@@ -13,8 +13,6 @@
 
 ## Introduction
 
-This document is lab three out of five total labs.
-
 **IMPORTANT:heavy_exclamation_mark:**: Please start this lab with the provided **Lab 2 solution.pbix** file found in the Reports folder **C:/DIAD/Reports**.
 
 At the end of this lab, you will have completed a full report that is ready to be published to the Power BI Service. In the report, you will have learned how to do conditional formatting, add a logo to the manufacturer filter, import a custom visual, and apply a custom theme to the report. By the end of this lab, you will have also learned how to add bookmarks to tell a story about the report.
