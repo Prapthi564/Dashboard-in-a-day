@@ -14,8 +14,6 @@
 
 ## Introduction
 
-This is lab two out of five labs in total. Please continue to use your file after completing Lab 1, if you are joining the DIAD at this point or were unable to complete Lab 1, please start this lab with the “Lab 1 solution.pbix” file you can find in the **Reports** folder. 
-
 In this lab you will learn how to:
  - create a range of different charts.
  - highlight and cross-filter.
