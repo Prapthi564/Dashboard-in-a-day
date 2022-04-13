@@ -50,22 +50,22 @@ Let’s start with the main Power BI Desktop window and become familiar with the
 
 7. The center **white space** is the canvas where you will be creating visuals.
 
-   ![](Images/powerbi-02-02.png)
-
 8. The **Visualizations** panel on the right allows you to select visualizations, add values to the visuals,and add columns to the axis or filters.
 
 9. The **Fields** window on the right panel is where you see the list of tables which were generated from the queries. Click the :arrow_down_small: icon (downward facing triangle) next to a table name to expand the field list for that table.
 
-    ![](Images/powerbi-02-03.png)
-    
+   ![](Images/powerbi-02-02.png)
+
 10. Click on the **Data** icon on the left side. Expand the **Sales** table in the **Fields** pane as shown in the figure above. Scroll up and down to notice how fast you can navigate through over three million rows.
 
-    ![](Images/powerbi-02-04.png)
+    ![](Images/powerbi-02-03.png)
     
 11. Click on the **Model** icon on the left panel of Power BI Desktop. You see the tables you have imported along with Relationships. The Power BI Desktop automatically infers relationships between the tables. 
   - A relationship is created between the Sales and Product tables using the **ProductID** column.
   - A relationship is created between the Product and Manufacturer tables using the **ManufacturerID** column.
 
+    ![](Images/powerbi-02-04.png)
+  
 Power BI supports multiple types of relationships:
   - 1 to many 
   - 1 to 1 
