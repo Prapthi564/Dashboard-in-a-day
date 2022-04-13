@@ -168,7 +168,7 @@ Notice the clustered column chart that we created earlier. It shows different sa
 
 30. Click on the **ellipse** on the top right corner of the visual (alternatively, the ellipse may be at the bottom of the chart). Notice there is an option to Sort by **Country** as well.
 
-    ![](Images/powerbi-02-17.png)
+    ![](Images/sort-by-revenue.png)
 
 31. Notice that we have some blanks in our data. We want to clean up our data and get rid of the blanks
 
@@ -310,7 +310,7 @@ Page-level filters apply to all visuals on the page. Visual-level filters apply 
 
 Now, let’s add a visual that provides sales information over time
 
-72. Begin by clicking on the white space in the canvas and select **Clusterd column chart** from Visulization.
+72. Begin by clicking on the white space in the canvas and select **Clusterd column chart** from Visualizations.
 
 73. Click the checkbox next to the **Date** field in the **Sales** table. Notice that a Date Hierarchy is created. 
 
