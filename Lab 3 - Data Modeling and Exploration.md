@@ -164,7 +164,7 @@ Now we have successfully created a relationship. The number “1” next to Geog
 
 Notice the clustered column chart that we created earlier. It shows different sales for each country or region. USA has the most sales, followed by Australia and Japan. By default, the chart is sorted by **Revenue**.
 
-30. Click on the **ellipse** on the top right corner of the visual (alternatively, the ellipse may be at the bottom of the chart). Notice there is an option to Sort by **Country** as well.
+30. Click on the **ellipse** on the top right corner of the visual (alternatively, the ellipse may be at the bottom of the chart). Notice there is an option to Sort axis by **Country** as well.
 
     ![](Images/sort-by-revenue.png)
 
