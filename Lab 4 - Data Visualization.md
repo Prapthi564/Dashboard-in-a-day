@@ -13,8 +13,6 @@
 
 ## Introduction
 
-**IMPORTANT**: Please start this lab with the provided **Lab 2 solution.pbix** file found in the **"C:\DIAD\Reports"** in the Lab Virtual machine.
-
 At the end of this lab, you will have completed a full report that is ready to be published to the Power BI Service. In the report, you will have learned how to do conditional formatting, add a logo to the manufacturer filter, import a custom visual, and apply a custom theme to the report. By the end of this lab, you will have also learned how to add bookmarks to tell a story about the report.
 
 The flow of this document includes screenshots to provide a visual aid for the users and a text description of the steps the user needs to follow. In the screenshots, sections are highlighted with red or orange boxes to indicate the action or area on which a user needs to focus.
@@ -25,13 +23,15 @@ The flow of this document includes screenshots to provide a visual aid for the u
 
 ### Power BI Desktop – Data Visualization
 
-Now that we’ve completed data exploration and visualization in labs one and two, you have good insights to share with your team. In this section, you create a professional report for the benefit of you and your entire team.
+Now that we’ve completed data exploration and visualization in previous labs, you have good insights to share with your team. In this section, you create a professional report for the benefit of you and your entire team.
+
+**IMPORTANT**: Please start this lab with the provided **Lab 2 solution.pbix** file found in the **"C:\DIAD\Reports"** in the Lab Virtual machine.
 
 At the end of this section, you will build a report like the one shown in the screenshot below.
 
   ![](Images/powerbi-03-01.png)
 
-Now let’s get started, we will pick up where we left off at the end of Lab 2.
+Now let’s get started, we will pick up where we left off at the end of Lab 3. 
 
 1. With the **Matrix** visual selected, navigate to the **Values** section and click the arrow next to **% Growth**.
 
