@@ -86,7 +86,7 @@ My Workspace is your personal workspace. We need to create a workspace where we 
 
     >**Note**: You are entering your email address as part of the workspace name to keep it unique.
 
-    ![](Images/powerbi-04-14.png)  
+    ![](Images/powerbi-04-16.png)  
   
 Notice that you have navigated from My Workspace to the workspace \ just created. You are in the **Welcome** screen with options to discover or create content.
 
@@ -108,7 +108,7 @@ Let’s publish the report to Power BI Service and then we will come back to the
 
 13. From the **Home** tab, click **Publish.**
 
-    ![](Images/powerbi-04-15.png) 
+    ![](Images/powerbi-04-17.png) 
   
 14. If you have not already logged into Power BI, a **Sign in** dialog box opens. Please sign in.
 
@@ -118,13 +118,13 @@ Let’s publish the report to Power BI Service and then we will come back to the
 
 The **Publishing to Power BI** dialog box opens. Once the process is complete, a success message displays.
 
-  ![](Images/powerbi-04-16.png)
+![](Images/powerbi-04-18.png)  
   
 17. Click **Got it** to close the dialog box.
 
 Now that we have published the report to the Power BI service, let’s navigate back to the browser and start exploring. 
   
- ![](Images/powerbi-04-17.png)
+![](Images/powerbi-04-19.png) 
   
 Once you are in the browser, in the left panel notice that under **DIAD\_<youremailaddress>**, you see **Reports** has the **DIAD Final Report**, and **Datasets**, has the **DIAD Final Report**.
 
@@ -134,11 +134,8 @@ In this section, we will create a dashboard that combines data from the **Market
   
 By the end of this section, we will have created a dashboard that looks like the screenshot below.
 
- ![](Images/powerbi-04-18.png)
 
-18. From the left menu, click **Reports** and then click the **DIAD Final Report.** You are navigated to the report you just uploaded.
-
-    ![](Images/powerbi-04-19.png)
+18. From the left menu, click **Reports** and then click the **DIAD Final Report.** You are navigated to the report you just uploaded.   
     
 19. In the **map visual**, enable drill-down by **hovering** over the visual.
 
