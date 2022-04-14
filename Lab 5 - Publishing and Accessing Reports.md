@@ -134,9 +134,12 @@ In this section, we will create a dashboard that combines data from the **Market
   
 By the end of this section, we will have created a dashboard that looks like the screenshot below.
 
-
+![](Images/powerbi-04-20.png)
+  
 18. From the left menu, click **Reports** and then click the **DIAD Final Report.** You are navigated to the report you just uploaded.   
-    
+
+    ![](Images/powerbi-04-21.png)
+  
 19. In the **map visual**, enable drill-down by **hovering** over the visual.
 
 20. Click the **down arrow** on the top right corner of the visual.
@@ -152,14 +155,14 @@ Now let’s pin visuals to the dashboard.
 24. We do not have a dashboard yet. Let’s create one. With **New dashboard** selected, enter **VanArsdel** in the text box.
 
 25. Click **Pin**.
-
-    ![](Images/powerbi-04-20.png)
   
+    ![](Images/powerbi-04-22.png)
+ 
 Notice that alert messages are displayed stating the dashboard is ready to view.
 
 Notice in the left panel, the **VanArsdel** dashboard is created under **Dashboards**.
 
-  ![](Images/powerbi-04-21.png)
+![](Images/powerbi-04-23.png)   
   
 26. From the left panel, click **Dashboards** then click **VanArsdel**.
 
@@ -177,7 +180,7 @@ Notice the **VanArsdel Market Share** tile is pinned to the dashboard.
 
 31. Click **Pin**.
 
-  ![](Images/powerbi-04-22.png)
+    ![](Images/powerbi-04-24.png)
   
 32. Closeout the alert dialog boxes.
 
@@ -189,7 +192,7 @@ Notice the **VanArsdel Market Share** tile is pinned to the dashboard.
 
 36. Click **Pin**.
 
-    ![](Images/powerbi-04-23.png)
+    ![](Images/powerbi-04-25.png)
    
 37. Closeout the alert dialog boxes.
 
@@ -201,7 +204,7 @@ Notice the **VanArsdel Market Share** tile is pinned to the dashboard.
 
 41. From the top right corner, click the **up arrow**. Notice that the **manufacturer** slicer collapses.
 
-    ![](Images/powerbi-04-24.png)
+    ![](Images/powerbi-04-26.png)
   
 42. Pin the **gauge visual** to the dashboard.
 
@@ -209,13 +212,13 @@ Notice the **VanArsdel Market Share** tile is pinned to the dashboard.
 
 44. Closeout the alert dialog boxes.
 
-    ![](Images/powerbi-04-25.png)
+    ![](Images/powerbi-04-27.png)
   
 >**Note:** The **VanArsdel** filter is applied to the tile that is pinned to the dashboard.
 
 45. From the left panel, select the three lines in the upper left-hand corner, click **Dashboards**, and then click **VanArsdel**. Notice that all the visuals are pinned as tiles to the dashboard.
 
-    ![](Images/powerbi-04-26.png)
+    ![](Images/powerbi-04-28.png)    
 
 You will see the visuals on the dashboard like in the screenshot. Each visual on the dashboard is called a tile. The tiles represent the data chosen and are kept up to date as the data in the data model updates. Tiles are not interactive.
 
@@ -225,7 +228,7 @@ Let’s organize the dashboard.
 
 47. Click the bottom right corner of the tile and move it diagonally to change the image size.
 
-    ![](Images/powerbi-04-27.png)
+    ![](Images/powerbi-04-29.png)
   
 Tiles can be of various sizes (1x1 to 5x5). Drag the tile using the bottom right corner to resize it. As you are dragging, note the gray shadow which indicates the size of the tile when you stop dragging.
 
@@ -237,9 +240,9 @@ Tiles can be of various sizes (1x1 to 5x5). Drag the tile using the bottom right
 
 51. In the **URL** text box, type the following URL: <https://raw.githubusercontent.com/CharlesSterling/DiadManu/master/Vanarsdel.png>
 
-    ![](Images/powerbi-04-28.png)
+    ![](Images/powerbi-04-30.png)
   
-    ![](Images/powerbi-04-29.png)
+    ![](Images/powerbi-04-31.png)
   
 >**Note:** The URL is case sensitive.
 
@@ -247,7 +250,7 @@ Tiles can be of various sizes (1x1 to 5x5). Drag the tile using the bottom right
 
 Notice that a new tile with the **VanArsdel** logo is added to the dashboard.
 
-  ![](Images/powerbi-04-30.png)
+![](Images/powerbi-04-32.png)
   
 53. Resize and rearrange the tiles as shown in the screenshot.
 
@@ -263,7 +266,7 @@ The **Revenue by Country** tile shows Revenue by Country for VanArsdel, let’s 
 
 58. Click **Apply.**
 
-    ![](Images/powerbi-04-31.png)
+    ![](Images/powerbi-04-33.png)
 
 Now let’s create a visual that represents Market Share by country.
 
@@ -275,7 +278,7 @@ Notice on the top of the visual, there is an option to **Ask a question about yo
 
 61. Continue typing **VanArsdel market share by country as treemap**. Notice that a treemap visual is created.
 
-    ![](Images/powerbi-04-32.png)
+    ![](Images/powerbi-04-34.png)
   
 >**Note**: Remember that we renamed our tables. One of the reasons we did this was to make them user friendly for Q & A
 
@@ -283,7 +286,7 @@ Notice on the top of the visual, there is an option to **Ask a question about yo
 
 63. The **Pin to dashboard** dialog box opens. Click **Pin** to pin the visual to the **VanArsdel** dashboard.
 
-    ![](Images/powerbi-04-33.png)
+    ![](Images/powerbi-04-35.png)
     
 64. Close the alert dialog boxes.
 
@@ -301,13 +304,13 @@ Let’s generate insights on a dashboard tile. When we run insights on a dashboa
 
 68. Click **View Insights**.
 
-    ![](Images/powerbi-04-34.png)
+    ![](Images/powerbi-04-36.png)
   
 You will be navigated to **Focus mode** for the line chart.
 
 69. Scroll on the Insights panel to review the various insights Power BI can generate. Notice that there is an option to pin insight visuals to the dashboard.
 
-    ![](Images/powerbi-04-35.png)
+    ![](Images/powerbi-04-37.png)
 
 70. Click **Exit Focus mode** in the top left to navigate back to the dashboard.
 
@@ -321,7 +324,7 @@ We want to be notified when VanArsdel’s Market Share goes above or below a thr
 
 74. Click **Add alert rule** dialog.
 
-    ![](Images/powerbi-04-36.png)
+    ![](Images/powerbi-04-38.png)
   
 Notice that you can add **Above** or **Below threshold**. You can also set the notification frequency. This is just an introduction to managing alerts. Complete functionality is not covered in this lab.
 
@@ -333,7 +336,7 @@ Notice that you can add **Above** or **Below threshold**. You can also set the n
 
 78. In the map visual, ensure it is at the **Country** level, right-click the **Australia** bubble, click **Drill through**, and click then **By Manufacturer**. 
   
-    ![](Images/powerbi-04-37.png)
+    ![](Images/powerbi-04-39.png)
 
 You will be navigated to the **By Manufacturer** page of the report with the **Australia** filter applied to the report page.
 
@@ -345,11 +348,11 @@ You will be navigated to the **By Manufacturer** page of the report with the **A
 
 82. Click **Back to report.**
 
-    ![](Images/powerbi-04-38.png)
+    ![](Images/powerbi-04-40.png)
   
 83. From the top menu, click **Bookmarks** and then click **Show more bookmarks**. The **Bookmark** pane opens on the right. There are two options: **Personal** bookmarks and **Report** bookmarks.
 
-    ![](Images/powerbi-04-39.png)
+    ![](Images/powerbi-04-41.png)
   
 - Report bookmarks are the bookmarks the report author created (we did this in Power BI Desktop).
 
@@ -359,7 +362,7 @@ You will be navigated to the **By Manufacturer** page of the report with the **A
 
 Notice that you can view and navigate through the bookmarks using the arrow at the bottom of the screen. This behavior is like in Power BI Desktop.
 
-  ![](Images/powerbi-04-40.png)
+![](Images/powerbi-04-42.png)  
   
 85. Click **Exit** in the **Bookmark** pane to close it.
 
@@ -371,17 +374,17 @@ Power BI provides an option to get quick insights into the complete dataset.
 
 88. Click **Get quick Insights**.
 
-    ![](Images/powerbi-04-41.png)
+    ![](Images/powerbi-04-43.png)
   
 It might take a few minutes for the insights to be created. Once insights are ready, a message appears in the top right corner.
 
 89. Click **View insights.**
 
-    ![](Images/powerbi-04-42.png)
+    ![](Images/powerbi-04-44.png)
   
 A quick insights report is displayed based on the dataset. This provides insights into data you may have missed and helps to get a quick start on creating dashboards. Hovering over each report provides an option to **Pin it** to a dashboard.
 
-  ![](Images/powerbi-04-43.png)
+![](Images/powerbi-04-45.png)  
 
 You’ve now completed Lab four! Throughout this lab, you have learned how to apply conditional formatting, add a logo to the manufacturer filter, import a custom visual, and apply a custom theme to the report. You also learned how to add bookmarks to tell a story about the report.
 
