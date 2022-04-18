@@ -7,6 +7,8 @@
 <!-- TOC -->
 
 - [Introduction](#introduction)
+  - [Getting Started with the lab](#Getting Started-with-Lab)
+- [Before the hands-on lab](#Before-the-hands-on-lab)
 - [Power BI Desktop](#power-bi-desktop)
   - [Power BI Desktop – Accessing Data](#power-bi-desktop-accessing-data)
 - [References](#references)
@@ -29,6 +31,42 @@ By the end of this lab, you will have learned:
 2. To get the lab environment details, you can select the **Lab Environment** tab, you can locate the **Lab Environment** tab on the upper right corner. Additionally, the credentials will also be emailed to your email address provided during registration.
 
    ![](Images/lab_details.png "Lab Environment")
+
+## Before the hands-on lab
+
+**Duration**: 30 minutes
+
+You should follow all of the steps provided in this section _before_ taking part in the hands-on lab ahead of time as some of these steps take time.
+
+1. Sign in to https://app.powerbi.com/ using your admin account credentials and click **Submit**.
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+2. Enter the following **Password** and click on **Sign in**. 
+   
+   * Password: <inject key="AzureAdUserPassword"></inject>   
+   
+3. Click **Skip for now (14 day until this is required)** 
+
+4. If you see the pop-up **Stay Signed in?**, click **No**. Also, if you see a Save Password popup, close that.
+
+5. Select **Contine** under *Thank you for choosing Microsoft PowerBI page* and provide your phone number when asked for the account info.
+
+6. Check-in the box where you are asked for permission to share the account info to get the product and service updates and click on **Get started**.
+
+7. Once every details are checked and confirmed again clcik **Get started** to continue.
+
+8. From the page header, select ... > **Settings** > **Admin portal**.
+
+   ![](Images/powerbi_admin.png)
+
+9. Select **Tenant settings** under Admin Portal and scroll down to **Use Azure Maps visual** to **Enabled**
+
+   ![](Images/enable_mapvisual.png)
+
+10. Click **Apply**
+
+11. **Sign out** and then **Sign in** to the account for changes to get applied.
 
 ## Power BI Desktop – Accessing Data
 
