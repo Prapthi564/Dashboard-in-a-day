@@ -32,27 +32,57 @@ Where you can share:
 
 ## Power BI – Share a Report
 
-1. In a list of reports, or in an open report, select **Share** ![](Images/powerbi-06-02.png).
+1. In the **LabVM**, click on the **Azure Portal** shortcut of Microsoft Edge browser which is created on the desktop 💻.
+  
+    ![](Images/select-azureportal.png)
+    
+2. On the **Sign into Microsoft Azure** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   
+3. Enter the following **Password** and click on **Sign in**. 
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
-2. Then in the **Send link** dialog, you'll see the option to copy the sharing link or share it via Outlook and Teams to **People in your organization**
+4. Click **Skip for now (14 day until this is required)**
+   
+5. If you see the pop-up **Stay Signed in?**, click **No**. Also, if you see a **Save Password** popup, close that.
+
+6. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
+
+7. If **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
+
+8. In the Global search bar, type **Azure Active Dircetory** and select as below;
+
+   ![](Images/active-directory.png)
+
+9. Select **Users** under Manage and click **+New User**.
+
+10. Ensure to select the Create User box and provide the desired **user name**, **Name** and also please take a note of the password for the user and then clik **Create**
+
+    ![](Images/new_user.png)
+    
+11. Minimize the Azure portal and navigate back to PowerBi desktop.
+
+12. In a list of reports, or in an open report, select **Share** ![](Images/powerbi-06-02.png).
+
+13. Then in the **Send link** dialog, you'll see the option to copy the sharing link or share it via Outlook and Teams to **People in your organization**
 
    ![](Images/powerbi-06-03.png)
 
 >**Note**: Your organization may not allow you to create shareable links to **People in your organization**. Learn more about this **tenant setting** in the admin portal documentation.
 
-3. Selecting **Copy link** will automatically generate and copy a shareable link to your clipboard.
+14. Selecting **Copy link** will automatically generate and copy a shareable link to your clipboard.
 
    ![](Images/powerbi-06-04.png)
 
-4. You can also choose to directly send the link to **Specific people** or groups (distribution groups or security groups). Just enter their name or email address, optionally type a message, and select **Send**.
+15. You can also choose to directly send the link to **Specific people** or groups (distribution groups or security groups). Just enter their name or email address of the user we have created in the previous steps, optionally type a message, and select **Send**.
 
    ![](Images/powerbi-06-05.png)
 
-5. After you select **Send**, Power BI sends the link via email to your recipients.
+16. After you select **Send**, Power BI sends the link via email to your recipients.
 
    ![](Images/powerbi-06-06.png)
 
-6. When your recipients receive the email, they can select **Open this report** and automatically get access to the report through the shareable link.
+17. When your recipients receive the email, they can select **Open this report** and automatically get access to the report through the shareable link.
 
    ![](Images/powerbi-06-07.png)
 
@@ -105,7 +135,7 @@ Links for **People with existing access** do not have any additional settings be
 
    ![](Images/powerbi-06-10.png)
 
-3. To grant users direct access to the report select the plus icon (+), enter their name or email address, optionally type a message, and select **Grant access**.
+3. To grant users direct access to the report select the plus icon (+), enter their name or email address of the user we have created in the previous task and optionally type a message, and select **Grant access**.
 
    ![](Images/powerbi-06-11.png)
 
