@@ -5,7 +5,7 @@
 **Contents** 
 
 <!-- TOC -->
-
+- [Before the hands-on lab]
 - [Introduction](#introduction)
 - [Power BI – Share a Report](#power-bi-share-a-report)
   - [Power BI – Link settings](#power-bi-link-settings)
