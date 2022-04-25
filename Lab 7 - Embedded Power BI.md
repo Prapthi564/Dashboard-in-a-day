@@ -107,9 +107,19 @@ To embed your content, you need to obtain certain parameter values. The table be
 
 Before you embed your content, make sure you have all the values listed below. Some of the values will differ, depending on the authentication method you're using.
 
+   | Parameter                | Service principal     | Master user         |
+   | ------------------------ | --------------------- | ------------------- |
+   | Client ID                | ![](Images/yes.png)   | ![](Images/yes.png) |          
+   | Workspace ID             | ![](Images/yes.png)   | ![](Images/yes.png) |
+   | Report ID                | ![](Images/yes.png)   | ![](Images/yes.png) |
+   | Client secret            | ![](Images/yes.png)   | ![](Images/no.png)  |
+   | Tenant ID                | ![](Images/yes.png)   | ![](Images/no.png)  |
+   | Power BI username        | ![](Images/no.png)    | ![](Images/yes.png) |
+   | Power BI password        | ![](Images/no.png)    | ![](Images/yes.png) |
+
 ### Client ID
 
->**Tip**: Applies to: Service principal Master user
+>**Tip**: Applies to: ![](Images/yes.png) Service principal ![](Images/yes.png) Master user
 
 To get the client ID GUID (also know as application ID), follow these steps:
 
@@ -123,7 +133,7 @@ To get the client ID GUID (also know as application ID), follow these steps:
 
 ### Workspace ID
 
->**Tip**: Applies to: Service principal Master user
+>**Tip**: Applies to: ![](Images/yes.png) Service principal ![](Images/yes.png) Master user
 
 To get the workspace ID GUID, follow these steps:
 
@@ -141,7 +151,7 @@ Alternatively, you can find the workspace ID in the **Admin portal** settings by
 
 ### Report ID
 
->**Tip**: Applies to: Service principal Master user
+>**Tip**: Applies to: ![](Images/yes.png) Service principal ![](Images/yes.png) Master user
 
 To get the report ID GUID, follow these steps:
 
@@ -155,7 +165,7 @@ To get the report ID GUID, follow these steps:
 
 ### Client secret
 
->**Tip**: Applies to: Service principal Master user
+>**Tip**: Applies to: ![](Images/yes.png) Service principal ![](Images/no.png) Master user
 
 To get the client secret, follow these steps:
 
@@ -177,7 +187,7 @@ To get the client secret, follow these steps:
 
 ### Tenant ID
 
->**Tip**: Applies to: Service principal Master user
+>**Tip**: Applies to: ![](Images/yes.png) Service principal ![](Images/no.png) Master user
 
 To get the tenant ID GUID, follow these steps:
 
@@ -191,7 +201,7 @@ To get the tenant ID GUID, follow these steps:
 
 ### Power BI username and password
 
->**Tip**: Applies to: Service principal Master user
+>**Tip**: Applies to: ![](Images/no.png) Service principal ![](Images/yes.png) Master user
 
 Obtain the username and password of the Power BI user you're using as your **master user**. This is the same user you used to create a workspace and upload a report to, in Power BI service.
 
