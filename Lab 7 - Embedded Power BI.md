@@ -66,41 +66,7 @@ To register your application with Azure AD, follow the instructions in [Register
 
 > **Note**: Before registering your application, you'll need to decide which authentication method to use, service principal or master user.
 
-### Task 3 - Create a Power BI workspace
-
-Power BI keeps your reports, dashboards, and tiles in a workspace. To embed these items, you'll need to create them and upload them into a workspace.
-
- >**Tip**: If you already have a workspace, you can skip this step.
-
-1. To create a workspace, do the following:
-
-2. Sign in to Power BI.
-
-3. Select Workspaces.
-
-4. Select Create a workspace.
-
-5. Name your workspace and select Save.
-
-### Task 4 - Create and publish a Power BI report
-
-Your next step is to create a report and upload it to your workspace. You can [create your own report](https://docs.microsoft.com/en-us/power-bi/fundamentals/desktop-getting-started#build-reports) using Power BI Desktop, and then [publish](https://docs.microsoft.com/en-us/power-bi/fundamentals/desktop-getting-started#share-your-work) it to your workspace. Or, you can upload a sample report to your workspace.
-
- >**Tip**: If you already have a workspace with a report, you can skip this step.
-
-To download a sample report and publish it to your workspace, follow these steps:
-
-1. Open the GitHub [Power BI Desktop samples](https://github.com/microsoft/PowerBI-Desktop-Samples) folder.
-
-2. Select **Code** and then select **Download zip**.
-
-   ![](Images/powerbi-07-01.png)
-
-3. Extract the downloaded ZIP and navigate to the Samples Reports folder.
-
-4. Select a report to embed, and [publish](https://docs.microsoft.com/en-us/power-bi/fundamentals/desktop-getting-started#share-your-work) it to your workspace.
-
-### Task 5 - Get the embedding parameter values
+### Task 3 - Get the embedding parameter values
 
 To embed your content, you need to obtain certain parameter values. The table below shows the required values, and indicates if they're applicable to the service principal authentication method, the master user authentication method, or both.
 
@@ -204,7 +170,7 @@ To get the tenant ID GUID, follow these steps:
 
 Obtain the username and password of the Power BI user you're using as your **master user**. This is the same user you used to create a workspace and upload a report to, in Power BI service.
 
-### Task 6 - Service principal API access
+### Task 4 - Service principal API access
 
 > **Top**: Applies to: ![](Images/yes.png) Service principal ![](Images/no.png) Master user
 
@@ -226,23 +192,7 @@ For an Azure AD app to be able to access the Power BI content and APIs, a Power 
 >- [Create an Azure AD security group](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal#step-2---create-an-azure-ad-security-group)
 >- [Enable the Power BI service admin settings](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal#step-3---enable-the-power-bi-service-admin-settings)
 
-### Task 7 - Enable workspace access
-
-To enable your Azure AD app access objects such as reports, dashboards and datasets in the Power BI service, add the service principal or master user, as a member or admin to your workspace.
-
-1. Sign in to Power BI service.
-
-2. Scroll to the workspace you want to enable access for, and from the **More** menu, select **Workspace access**.
-
-   ![](Images/powerbi-07-07.png)
-
-3. In the **Access** pane, depending on which authentication method you're using, copy the service principal or master user to the **Enter email address** text box.
-
->**Note**: If you're using a service principal, its name is the name you gave your Azure AD app.
-
-4. Select **Add**.
-
-### Task 8 - Embed your content
+### Task 5 - Embed your content
 
 The Power BI embedded sample application allows you to create an embed for your customers Power BI app.
 
