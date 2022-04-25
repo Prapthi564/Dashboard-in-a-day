@@ -7,7 +7,7 @@
 <!-- TOC -->
 
 - [Introduction](#introduction)
-  - [Getting Started with the lab](#Getting Started-with-Lab)
+  - [Getting Started with the lab](#Getting-started-with-Lab)
 - [Before the hands-on lab](#Before-the-hands-on-lab)
 - [Power BI Desktop](#power-bi-desktop)
   - [Power BI Desktop – Accessing Data](#power-bi-desktop-accessing-data)
