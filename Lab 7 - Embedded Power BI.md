@@ -109,13 +109,13 @@ Before you embed your content, make sure you have all the values listed below. S
 
    | Parameter                | Service principal     | Master user         |
    | ------------------------ | --------------------- | ------------------- |
-   | Client ID                | ![](Images/yes.png)   | ![](Images/yes.png) |          
-   | Workspace ID             | ![](Images/yes.png)   | ![](Images/yes.png) |
-   | Report ID                | ![](Images/yes.png)   | ![](Images/yes.png) |
-   | Client secret            | ![](Images/yes.png)   | ![](Images/no.png)  |
-   | Tenant ID                | ![](Images/yes.png)   | ![](Images/no.png)  |
-   | Power BI username        | ![](Images/no.png)    | ![](Images/yes.png) |
-   | Power BI password        | ![](Images/no.png)    | ![](Images/yes.png) |
+   | [Client ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#client-id)                | ![](Images/yes.png)   | ![](Images/yes.png) |  
+   | [Workspace ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#workspace-id)             | ![](Images/yes.png)   | ![](Images/yes.png) |
+   | [Report ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#report-id)                | ![](Images/yes.png)   | ![](Images/yes.png) |
+   | [Client secret](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#client-secret)            | ![](Images/yes.png)   | ![](Images/no.png)  |
+   | [Tenant ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#tenant-id)               | ![](Images/yes.png)   | ![](Images/no.png)  |
+   | [Power BI username](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#power-bi-username-and-password)        | ![](Images/no.png)    | ![](Images/yes.png) |
+   | [Power BI password](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#power-bi-username-and-password)        | ![](Images/no.png)    | ![](Images/yes.png) |
 
 ### Client ID
 
@@ -269,3 +269,37 @@ Follow these steps to modify the embed for your customers sample application, to
 
 5. Open the **Embed for your customers** folder.
 
+6. Open the embed for your customers sample app using one of these methods:
+
+   - If you're using [Visual Studio](https://visualstudio.microsoft.com/), open the **AppOwnsData.sln** file.
+
+   - If you're using [Visual Studio Code](https://code.visualstudio.com/), open the **AppOwnsData** folder.
+
+7. Open **appsettings.json**.
+
+8. Depending on your authentication method, fill in the following parameter values:
+
+   | Parameter                | Service principal     | Master user         |
+   | ------------------------ | --------------------- | ------------------- |
+   | AuthenticationMode       | ServicePrincipal      | MasterUser          |  
+   | ClientId                 | Your Azure AD app [client ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#client-id)   | https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#client-id  |
+   | TenantId                 | Your Azure AD [tenant ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#tenant-id)   | N/A |
+   | PbiUsername              | N/A   | Your master user username, see [Power BI username and password](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#power-bi-username-and-password)  |
+   | PbiPassword              | N/A   | Your master user password, see [Power BI username and password](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#power-bi-username-and-password)   |
+   | ClientSecret             | Your Azure AD [client secret](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#client-secret)    | N/A   |
+   | WorkspaceId              | The ID of the workspace with your embedded report, see [Workspace ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#workspace-id)    | The ID of the workspace with your embedded report, see [Workspace ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#workspace-id)  |
+   | ReportId                 | The ID of the report you're embedding, see [Report ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#report-id)   | The ID of the report you're embedding, see [Report ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#report-id)  |
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
