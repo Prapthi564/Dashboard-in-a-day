@@ -269,7 +269,7 @@ Follow these steps to modify the embed for your customers sample application, to
 
 5. Open the **Embed for your customers** folder.
 
-6. Open the embed for your customers sample app using one of these methods:
+6. Using **.NET Core**, open the embed for your customers sample app using one of these methods:
 
    - If you're using [Visual Studio](https://visualstudio.microsoft.com/), open the **AppOwnsData.sln** file.
 
@@ -290,10 +290,17 @@ Follow these steps to modify the embed for your customers sample application, to
    | WorkspaceId              | The ID of the workspace with your embedded report, see [Workspace ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#workspace-id)    | The ID of the workspace with your embedded report, see [Workspace ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#workspace-id)  |
    | ReportId                 | The ID of the report you're embedding, see [Report ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#report-id)   | The ID of the report you're embedding, see [Report ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#report-id)  |
    
+9. Run the project by selecting the appropriate option:
+
+   - If you're using **Visual Studio**, select **IIS Express** (play).
+
+   - If you're using **Visual Studio Code**, select **Run** > **Start Debugging**.   
    
-   
-   
-   
+## Developing your application
+
+After configuring and running the embed for your customers sample application, you can start developing your own application.
+
+When you're ready, review the [move to production](https://docs.microsoft.com/en-us/power-bi/developer/embedded/move-to-production) requirements. You'll also need a [capacity](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embedded-capacity), and should review the [capacity planning](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embedded-capacity-planning) article to establish which SKU best suits your needs.
    
    
    
