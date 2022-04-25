@@ -207,4 +207,65 @@ Obtain the username and password of the Power BI user you're using as your **mas
 
 ### Task 6 - Service principal API access
 
+> **Top**: Applies to: ![](Images/yes.png) Service principal ![](Images/no.png) Master user
+
+> **Note**: This step is only relevant if you're using the service principal authentication method. If you're using a master user, skip this step and continue with Step 7 - Enable workspace access.
+
+For an Azure AD app to be able to access the Power BI content and APIs, a Power BI admin needs to enable service principal access in the Power BI admin portal. If you're not the admin of your tenant, get the tenant's admin to enable the Tenant settings for you.
+
+1. In Power BI service, select **Settings** > **Settings** > **Admin portal**.
+
+   ![](Images/powerbi-07-05.png)
+   
+2. Select **Tenant settings** and then scroll down to the **Developer settings** section.
+
+3. Expand **Allow service principals to use Power BI APIs**, and enable this option.
+
+   ![](Images/powerbi-07-06.png)
+
+> **Note**: When using a service principal, it's recommended to limit its access to the tenant settings using a security group. To learn more about this feature, see these sections in the service principal article:
+>- [Create an Azure AD security group](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal#step-2---create-an-azure-ad-security-group)
+>- [Enable the Power BI service admin settings](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal#step-3---enable-the-power-bi-service-admin-settings)
+
+### Task 7 - Enable workspace access
+
+To enable your Azure AD app access objects such as reports, dashboards and datasets in the Power BI service, add the service principal or master user, as a member or admin to your workspace.
+
+1. Sign in to Power BI service.
+
+2. Scroll to the workspace you want to enable access for, and from the **More** menu, select **Workspace access**.
+
+   ![](Images/powerbi-07-07.png)
+
+3. In the **Access** pane, depending on which authentication method you're using, copy the service principal or master user to the **Enter email address** text box.
+
+>**Note**: If you're using a service principal, its name is the name you gave your Azure AD app.
+
+4. Select **Add**.
+
+### Task 8 - Embed your content
+
+The Power BI embedded sample application allows you to create an embed for your customers Power BI app.
+
+Follow these steps to modify the embed for your customers sample application, to embed your Power BI report.
+
+1. Open the [Power BI developer samples](https://github.com/microsoft/PowerBI-Developer-Samples) folder.
+
+2. Select **Code** and then select **Download zip**.
+
+   ![](Images/powerbi-07-08.png)
+   
+3. Extract the downloaded ZIP and navigate to the **PowerBI-Developer-Samples-master** folder.
+
+4. Depending on the language you want your app to use, open one of these folders:
+
+   - .NET Core
+   - .NET Framework
+   - Java
+   - Node JS
+   - Python  
+
+>**Note**: The embed for your customers sample applications only support the frameworks listed above. The React sample application only supports the **embed for your organization** solution.
+
+5. Open the **Embed for your customers** folder.
 
