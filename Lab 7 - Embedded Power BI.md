@@ -8,7 +8,6 @@
 
 - [Introduction](#introduction)
 - [Embedded Power BI](#embedded-power-bi)
-- [References](#references)
 
 ## Introduction
 
