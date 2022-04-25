@@ -39,7 +39,6 @@ The code samples support the following browsers:
  - Google Chrome
  - Mozilla Firefox
 
-
 ## To create an embed for users sample app, follow these steps:
 
 ### Task 1 - Select your authentication method
@@ -51,9 +50,10 @@ The table below describes a few key differences between the [service principal](
    | Consideration            | Service principal             | Master user             |
    | ------------------------ | ----------------------------- | ----------------------- |
    | Mechanism                | Your Azure AD app's [service principal object](https://docs.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) allows Azure AD to authenticate your embedded solution app against Power BI.                              | Your Azure AD app uses the credentials (username and password) of a Power BI user, to authenticate against Power BI. |
-   | Security                         | Service principal is the Azure AD recommended authorization method. If you're using a service principal, you can authenticate using either an application secret or a certificate. This tutorial only describes using service principal with an application secret. To embed using a service principal and a certificate, refer to the [service principal with a certificate](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal-certificate) article.                              | This authentication method isn't as secure as a service principal. You have to be vigilant with the master user credentials (username and password). For example, don't expose them in your embedding application, and change the password frequently. |
-   |                          |                               |
-   |                          |                               |
+   | Security                         | Service principal is the Azure AD recommended authorization method. If you're using a service principal, you can authenticate using either an application secret or a certificate. This lab only describes using service principal with an application secret. To embed using a service principal and a certificate, refer to the [service principal with a certificate](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal-certificate) article.                              | This authentication method isn't as secure as a service principal. You have to be vigilant with the master user credentials (username and password). For example, don't expose them in your embedding application, and change the password frequently. |
+   | Azure AD delegated permissions   | Not required.   | Your master user or an administrator has to grant consent for your app to access Power BI REST API [permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent) (also known as scopes). For example, Report.ReadWrite.All. |
+   | Power BI service access      | You can't access Power BI service with a service principal.    | You can access Power BI service with your master user credentials. |
+   | License    | Doesn't require a Pro license. You can use content from any workspace that you're a member or an admin of. | Requires a [Power BI Pro](https://docs.microsoft.com/en-us/power-bi/enterprise/service-admin-purchasing-power-bi-pro) or Premium Per User (PPU) license. |
 
 
 
