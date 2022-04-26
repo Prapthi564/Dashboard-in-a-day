@@ -60,9 +60,9 @@ You should follow all of the steps provided in this section _before_ taking part
 
    ![](Images/powerbi_admin.png)
 
-9. Select **Tenant settings** under Admin Portal and scroll down to **Use Azure Maps visual** to **Enabled**
+9. In **Tenant settings** under Admin Portal, scroll down to **Integration settings**. Then click on the **Map and filled map visuals** drop-down, toggle the button to **Enabled**, and click on **Apply**.
 
-   ![](Images/enable_mapvisual.png)
+   ![](Images/powerbi-filled-map-visuals.png)
 
 10. Click **Apply**
 
