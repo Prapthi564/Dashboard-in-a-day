@@ -26,6 +26,10 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Dashboard-in-a-day/prod/Lab%206%20-%20Share%20Power%20BI%20App%20in%20your%20organization.md",
         "Order": 6
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Dashboard-in-a-day/prod/Lab%207%20-%20Embedded%20Power%20BI.md",
+        "Order": 7
       }
     ]
   }
