@@ -198,7 +198,7 @@ The Power BI embedded sample application allows you to create an embed for your 
 
 Follow these steps to modify the embed for your customers sample application, to embed your Power BI report.
 
-1. Open the [Power BI developer samples](https://github.com/microsoft/PowerBI-Developer-Samples) folder.
+1. Open the [Power BI developer samples](https://github.com/microsoft/PowerBI-Developer-Samples) folder in the virtual machine.
 
 2. Select **Code** and then select **Download zip**.
 
