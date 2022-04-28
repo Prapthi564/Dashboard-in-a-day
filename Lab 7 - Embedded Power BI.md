@@ -56,11 +56,11 @@ The code samples support the following browsers:
 
    ![](Images/overview-applicationid.png)
    
-5. Click on **Certificates & secrets**(3) under Manage from left and select **+ New client secret**.
+5. Click on **Certificates & secrets** under Manage from left and select **+ New client secret**.
 
    ![](Images/new-client-secret.png)
    
-6. **Add a client secret** pane appears, enter **DIAD client secret** in Description and leave default for Expires. Then click on **Add**.
+6. **Add a client secret** pane appears, enter **DIAD client secret** in Description and leave default for Expires and click on **Add**.
 
    ![](Images/add-client-secret.png)
    
