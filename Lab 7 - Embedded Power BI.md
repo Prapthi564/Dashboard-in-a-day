@@ -217,34 +217,35 @@ Follow these steps to modify the embed for your customers sample application, to
 
 >**Note**: The embed for your customers sample applications only support the frameworks listed above. The React sample application only supports the **embed for your organization** solution.
 
-5. Open the **Embed for your customers** folder.
+5. Using **.NET Core**, open the **Embed for your customers** folder path `C:\Users\demouser\Downloads\PowerBI-Developer-Samples-master\PowerBI-Developer-Samples-master\.NET Core\Embed for your customers`
 
-6. Using **.NET Core**, open the embed for your customers sample app using one of these methods:
+6. Double click on the **AppOwnsData.sln** file and select **Visual Studio 2019**.
 
-   - If you're using [Visual Studio](https://visualstudio.microsoft.com/), open the **AppOwnsData.sln** file.
+   ![](Images/app-owns-data.png)
 
-   - If you're using [Visual Studio Code](https://code.visualstudio.com/), open the **AppOwnsData** folder.
+7. In the Sign in to Visual Studio pop-up, click on **Sign in** use your admin credentials to sign in. 
 
-7. Open **appsettings.json**.
+   ![](Images/vs-signin.png)
+      
+8. From the **Solution Explorer**, expand **AppOwnsData** and then double-click on **appsettings.json**.
 
-8. Depending on your authentication method, fill in the following parameter values:
+   ![](Images/open-app-settings.png)
 
-   | Parameter                | Service principal     | Master user         |
-   | ------------------------ | --------------------- | ------------------- |
-   | AuthenticationMode       | ServicePrincipal      | MasterUser          |  
-   | ClientId                 | Your Azure AD app [client ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#client-id)   | https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#client-id  |
-   | TenantId                 | Your Azure AD [tenant ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#tenant-id)   | N/A |
-   | PbiUsername              | N/A   | Your master user username, see [Power BI username and password](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#power-bi-username-and-password)  |
-   | PbiPassword              | N/A   | Your master user password, see [Power BI username and password](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#power-bi-username-and-password)   |
-   | ClientSecret             | Your Azure AD [client secret](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#client-secret)    | N/A   |
-   | WorkspaceId              | The ID of the workspace with your embedded report, see [Workspace ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#workspace-id)    | The ID of the workspace with your embedded report, see [Workspace ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#workspace-id)  |
-   | ReportId                 | The ID of the report you're embedding, see [Report ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#report-id)   | The ID of the report you're embedding, see [Report ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#report-id)  |
-   
-9. Run the project by selecting the appropriate option:
+9. Update the **ClientID**, **TenantID**, and **ClientSecret** which you have copied earlier from the DIADApp.
 
-   - If you're using **Visual Studio**, select **IIS Express** (play).
+10. Update the  **PbiUsername** and **PbiPassword** by using your admin credentials.
 
-   - If you're using **Visual Studio Code**, select **Run** > **Start Debugging**.   
+11. Update the **WorkspaceID** and **ReportID** with the values you have copied from the Power BI report URL.
+
+12. After updating all the values your file should look like as shown in the below image.
+
+    ![](Images/updated-appsettings.png)
+    
+13. **Save** the file **appsettings.json**.
+
+14. Run the project by selecting **IIS Express** (play).
+
+    
    
 ## Developing your application
 
