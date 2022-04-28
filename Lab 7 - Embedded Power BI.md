@@ -125,20 +125,6 @@ The code samples support the following browsers:
 
 >**Note**: To remove a permission, select the ellipsis (...) to the right of the permission. Select Remove permission. In the Remove permission pop-up window, select Yes, remove.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Task 5 - Get the embedding parameter values
 
 To embed your content, you need to obtain certain parameter values. The table below shows the required values, and indicates if they're applicable to the service principal authentication method, the master user authentication method, or both.
@@ -154,20 +140,6 @@ Before you embed your content, make sure you have all the values listed below. S
    | [Tenant ID](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#tenant-id)               | ![](Images/yes.png)   | ![](Images/no.png)  |
    | [Power BI username](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#power-bi-username-and-password)        | ![](Images/no.png)    | ![](Images/yes.png) |
    | [Power BI password](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#power-bi-username-and-password)        | ![](Images/no.png)    | ![](Images/yes.png) |
-
-### Client ID
-
->**Tip**: Applies to: ![](Images/yes.png) Service principal ![](Images/yes.png) Master user
-
-To get the client ID GUID (also know as application ID), follow these steps:
-
-1. Log into [Microsoft Azure](https://ms.portal.azure.com/#allservices).
-
-2. Search for **App registrations** and select the **App registrations** link.
-
-3. Select the Azure AD app you're using for embedding your Power BI content.
-
-4. From the **Overview** section, copy the **Application (client) ID** GUID.
 
 ### Workspace ID
 
@@ -201,28 +173,6 @@ To get the report ID GUID, follow these steps:
 
    ![](Images/powerbi-07-04.png)
 
-### Client secret
-
->**Tip**: Applies to: ![](Images/yes.png) Service principal ![](Images/no.png) Master user
-
-To get the client secret, follow these steps:
-
-1. Log into [Microsoft Azure](https://ms.portal.azure.com/#allservices).
-
-2. Search for **App registrations** and select the **App registrations** link.
-
-3. Select the Azure AD app you're using for embedding your Power BI content.
-
-4. Under **Manage**, select **Certificates & secrets**.
-
-5. Under **Client secrets**, select **New client secret**.
-
-6. In the **Add a client secret** pop-up window, provide a description for your application secret, select when the application secret expires, and select **Add**.
-
-7. From the **Client secrets** section, copy the string in the **Value** column of the newly created application secret. The client secret value is your client ID.
-
-> **Note**: Make sure you copy the client secret value when it first appears. After navigating away from this page, the client secret will be hidden and you'll not be able to retrieve its value.
-
 ### Tenant ID
 
 >**Tip**: Applies to: ![](Images/yes.png) Service principal ![](Images/no.png) Master user
@@ -242,28 +192,6 @@ To get the tenant ID GUID, follow these steps:
 >**Tip**: Applies to: ![](Images/no.png) Service principal ![](Images/yes.png) Master user
 
 Obtain the username and password of the Power BI user you're using as your **master user**. This is the same user you used to create a workspace and upload a report to, in Power BI service.
-
-### Task 4 - Service principal API access
-
-> **Top**: Applies to: ![](Images/yes.png) Service principal ![](Images/no.png) Master user
-
-> **Note**: This step is only relevant if you're using the service principal authentication method. If you're using a master user, skip this step and continue with Step 7 - Enable workspace access.
-
-For an Azure AD app to be able to access the Power BI content and APIs, a Power BI admin needs to enable service principal access in the Power BI admin portal. If you're not the admin of your tenant, get the tenant's admin to enable the Tenant settings for you.
-
-1. In Power BI service, select **Settings** > **Settings** > **Admin portal**.
-
-   ![](Images/powerbi-07-05.png)
-   
-2. Select **Tenant settings** and then scroll down to the **Developer settings** section.
-
-3. Expand **Allow service principals to use Power BI APIs**, and enable this option.
-
-   ![](Images/powerbi-07-06.png)
-
-> **Note**: When using a service principal, it's recommended to limit its access to the tenant settings using a security group. To learn more about this feature, see these sections in the service principal article:
->- [Create an Azure AD security group](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal#step-2---create-an-azure-ad-security-group)
->- [Enable the Power BI service admin settings](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal#step-3---enable-the-power-bi-service-admin-settings)
 
 ### Task 5 - Embed your content
 
