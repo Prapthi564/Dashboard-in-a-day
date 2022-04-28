@@ -70,17 +70,29 @@ The code samples support the following browsers:
 
 >**Note**: After you leave this window, the client secret value will be hidden, and you'll not be able to view or copy it again.
 
-### Task 2 - Register an Azure AD application
+### Task 2 - Enable the Power BI service admin settings and add the service principal & security group to your workspace.
 
-Registering your application with Azure AD allows you to:
+1. Naviaget to [PowerBI App](https://app.powerbi.com/) in the browser. Use your admin account credentials for sign-in.
 
- - Establish an identity for your app
- - Let your app access the [Power BI REST APIs](https://docs.microsoft.com/en-us/rest/api/power-bi/)
- - If you're using a master user - Specify your app's [Power BI REST permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent)
+2. From the page header, select **...**(1)> **Settings**(2) > **Admin portal**(3).
 
-To register your application with Azure AD, follow the instructions in [Register your application](https://docs.microsoft.com/en-us/power-bi/developer/embedded/register-app).
+   ![](Images/select-admin-portal.png)
+   
+3. In **Tenant settings** under Admin Portal, scroll down to **Developer settings**. Then click on the **Allow service principals to use Power BI APIs** drop-down, toggle the button to **Enabled**. For **Apply to**: Check for **The entire organization** and click on **Apply**.
 
-> **Note**: Before registering your application, you'll need to decide which authentication method to use, service principal or master user.
+   ![](Images/enabled-service-principle.png)
+   
+4. Navigate back to **Home** pane of Power BI App, select **Workspaces**(1) then click on **eclipse**(2) next to workspace name. Then select **Workspace access**(3).
+
+   ![](Images/workspace-access.png)
+ 
+5. In the **Access** pane, search for DIAD and add both the **DIADGroup** and **DIADApp**.
+
+   ![](Images/add-diad-group-sp.png)
+
+6. After selecting **DIADGroup** and **DIADApp** (1), select **Member** (2) access from the drop-down and click on **Add** (3) and **Close** (4).
+
+   ![](Images/sp-sg-access-add.png)
 
 ### Task 3 - Get the embedding parameter values
 
