@@ -70,7 +70,7 @@ The code samples support the following browsers:
 
 >**Note**: After you leave this window, the client secret value will be hidden, and you'll not be able to view or copy it again.
 
-### Task 2 - Enable the Power BI service admin settings and add the service principal & security group to your workspace.
+### Task 2 - Enable the Power BI service admin settings
 
 1. Naviaget to [PowerBI App](https://app.powerbi.com/) in the browser. Use your admin account credentials for sign-in.
 
@@ -82,6 +82,8 @@ The code samples support the following browsers:
 
    ![](Images/enabled-service-principle.png)
    
+### Add the service principal and security group to your workspace
+
 4. Navigate back to **Home** pane of Power BI App, select **Workspaces**(1) then click on **eclipse**(2) next to workspace name. Then select **Workspace access**(3).
 
    ![](Images/workspace-access.png)
@@ -94,7 +96,50 @@ The code samples support the following browsers:
 
    ![](Images/sp-sg-access-add.png)
 
-### Task 3 - Get the embedding parameter values
+### Task 3 - Register an Azure AD application to use with Power BI
+
+1. Open the [Power BI App Registration Tool](https://app.powerbi.com/embedsetup) in the browser.
+
+2. In the Choose an embedding solution section, select **Embed for your customers**.
+
+   ![](Images/embed-for-customers.png)
+
+3. In Step 1 - If you have not sign in to Power BI then sign in using your admin account credentials. The Azure AD app will be registered under this user. Click on **Next**.
+
+   ![](Images/signin-next.png)
+   
+4. In Step 2 - Enter the Application Name as **DIAD Embedded Power BI App**. Select all the **Read only APIs** access and you can also select for other access according to your requirment. Click on **Register**.
+
+   ![](Images/access-register.png)
+
+5. Skip the Steps 3 & 4 as we have already created a workspace and imported content.
+
+6. In Step 5 - Click on **Grant permissions**. You will receive an authentication pop-up of Permissions requested, **Check** the consent on behalf of your organization and click on **Accept**.
+
+   ![](Images/grant-permission.png)
+   
+Task 4 - Change your Azure AD app's permissions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Task 5 - Get the embedding parameter values
 
 To embed your content, you need to obtain certain parameter values. The table below shows the required values, and indicates if they're applicable to the service principal authentication method, the master user authentication method, or both.
 
