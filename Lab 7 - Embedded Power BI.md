@@ -271,7 +271,19 @@ Follow these steps to modify the embed for your customers sample application, to
 
    ![](Images/select-webapp-finish.png)
 
+5. In the Ready to Publish, select **Publish** and wait for few minutes till the buid to gets succeed.
 
+   ![](Images/ready-to-publish.png)
+   
+6. Navigate back to Azure portal, search for **DIAD-webapp-DeploymentID** and select it.
+
+7. In the Overview pane of the Web App, click on **URL**.
+
+   ![](Images/web-app-url.png)
+   
+8. You will be able to see the PowerBI App in the new tab as shown in the below image.
+
+   ![](Images/web-app-result.png)  
 
 ## Developing your application
 
