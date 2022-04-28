@@ -44,7 +44,7 @@ The code samples support the following browsers:
 
 1. Log into [Microsoft Azure](https://portal.azure.com) portal.
 
-2. Search for App registrations in Search box at the top and click the App registrations link.
+2. Search for App registrations in Search box at the top and **App registrations** under Services.
 
    ![](Images/search-app-registration.png)
    
@@ -82,48 +82,48 @@ The code samples support the following browsers:
 
    ![](Images/enabled-service-principle.png)
    
-### Add the service principal and security group to your workspace
+### Task 3 - Add the service principal and security group to your workspace
 
-4. Navigate back to **Home** pane of Power BI App, select **Workspaces**(1) then click on **eclipse**(2) next to workspace name. Then select **Workspace access**(3).
+1. Navigate back to **Home** pane of Power BI App, select **Workspaces**(1) then click on **eclipse**(2) next to workspace name. Then select **Workspace access**(3).
 
    ![](Images/workspace-access.png)
  
-5. In the **Access** pane, search for DIAD and add both the **DIADGroup** and **DIADApp**.
+2. In the **Access** pane, search for DIAD and add both the **DIADGroup** and **DIADApp**.
 
    ![](Images/add-diad-group-sp.png)
 
-6. After selecting **DIADGroup** and **DIADApp** (1), select **Member** (2) access from the drop-down and click on **Add** (3) and **Close** (4).
+3. After selecting **DIADGroup** and **DIADApp** (1), select **Member** (2) access from the drop-down and click on **Add** (3) and **Close** (4).
 
    ![](Images/sp-sg-access-add.png)
 
-### Task 3 - Register an Azure AD application to use with Power BI
-
-1. Open the [Power BI App Registration Tool](https://app.powerbi.com/embedsetup) in the browser.
-
-2. In the Choose an embedding solution section, select **Embed for your customers**.
-
-   ![](Images/embed-for-customers.png)
-
-3. In Step 1 - If you have not sign in to Power BI then sign in using your admin account credentials. The Azure AD app will be registered under this user. Click on **Next**.
-
-   ![](Images/signin-next.png)
    
-4. In Step 2 - Enter the Application Name as **DIAD Embedded Power BI App**. Select all the **Read only APIs** access and you can also select for other access according to your requirment. Click on **Register**.
+### Task 4 - Change your Azure AD app's permissions
 
-   ![](Images/access-register.png)
+1. Navigate back to [Microsoft Azure](https://portal.azure.com) portal.
 
-5. Skip the Steps 3 & 4 as we have already created a workspace and imported content.
+2. Search for App registrations in Search box at the top and click the **App registrations** under Services.
 
-6. In Step 5 - Click on **Grant permissions**. You will receive an authentication pop-up of Permissions requested, **Check** the consent on behalf of your organization and click on **Accept**.
-
-   ![](Images/grant-permission.png)
+   ![](Images/search-app-registration.png)
    
-Task 4 - Change your Azure AD app's permissions
+3. In the App registrations pane, select **All application**  and click on **DIADApp**.
 
+   ![](Images/app-registration-diadapp.png)
 
+4. Select **API permissions** under Manage and select **+ Add a permission**.
 
+   ![](Images/add-api-permission.png)
+   
+5. From the Microsoft APIs tab, scroll-down and select Power BI service.
 
+6. Select **Delegated Permissions** and add or remove the specific permissions as you need. Now you can add some permissions for **App**, **Capacity**, **Dashboard**, **Report**, **Tenant**, and **Workspace** as shown in the below image. Then click on **Add permissions**.
 
+   ![](Images/assign-api-permission.png)
+
+7. Select the **Grant admin consent for Azure HOL ###**(1) and click **Yes** on the pop-up.
+
+   ![](Images/grant-admin-consent.png)
+
+>**Note**: To remove a permission, select the ellipsis (...) to the right of the permission. Select Remove permission. In the Remove permission pop-up window, select Yes, remove.
 
 
 
