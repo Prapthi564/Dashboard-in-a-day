@@ -193,7 +193,7 @@ To get the tenant ID GUID, follow these steps:
 
 Obtain the username and password of the Power BI user you're using as your **master user**. This is the same user you used to create a workspace and upload a report to, in Power BI service.
 
-### Task 5 - Embed your content
+### Task 5 - Embed your content in Visual Studi and run locally.
 
 The Power BI embedded sample application allows you to create an embed for your customers Power BI app.
 
@@ -243,10 +243,36 @@ Follow these steps to modify the embed for your customers sample application, to
     
 13. **Save** the file **appsettings.json**.
 
-14. Run the project by selecting **IIS Express** (play).
+14. Set the **IIS Express** play to **Web Browser (Microsoft Edge)**.
 
-    
+    ![](Images/run-with-edge.png)
+
+15. Then run the project by selecting **IIS Express** (play). You will be able to see the website as shown in the below image.
+
+    ![](Images/local-run-result.png)
+
+>**Note**: You may receive error that your site is not secure, click on **Continue without Secure**.   
    
+### Task 6 - Publishing Embedded Power BI report to Web App
+
+1. In the Visual studio, right-click on the **AppOwnsData** in the Solution Explorer and select **Publish**.
+
+   ![](Images/publish-appwonsdata.png)
+   
+2. For Target, select **Azure** and click on **Next**.
+
+   ![](Images/select-azure-publish.png)  
+
+3. For Specific target, select **Azure App Service (Windows)** and click on **Next**.
+
+   ![](Images/azure-app-service-publish.png)
+
+4. For App Service, click on the resource group **ODL-DIAD-DeploymentID** drop-down and select the **DIAD-webapp-DeploymentID** web app. Click on **Finish**.
+
+   ![](Images/select-webapp-finish.png)
+
+
+
 ## Developing your application
 
 After configuring and running the embed for your customers sample application, you can start developing your own application.
