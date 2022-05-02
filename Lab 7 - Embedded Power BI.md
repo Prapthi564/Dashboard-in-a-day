@@ -7,7 +7,15 @@
 <!-- TOC -->
 
 - [Introduction](#introduction)
-- [Embedded Power BI](#embedded-power-bi)
+- [Embedded Power BI App in Web App](#embedded-power-bi)
+  - [Task 1 - Generate Client secret value in Azure AD App](#task1-generate-client-secret-value-in-azure-ad-app)
+  - [Task 2 - Enable the Power BI service admin settings](#task2-enable-the-power-bi-service-admin-settings)
+  - [Task 3 - Add the service principal and security group to your workspace](#task3-add-the-service-principal-and-security-group-to-your-workspace)
+  - [Task 4 - Change your Azure AD app's permissions](#task4-change-your-azure-ad-app's-permissions)
+  - [Task 5 - Get the embedding parameter values](#task5-get-the-embedding-parameter-values)
+  - [Task 6 - Embed your content in Visual Studio and run locally](#task6-embed-your-content-in-visual-studio-and-run-locally)
+  - [Task 7 - Publishing Embedded Power BI report to Web App](#task7-publishing-embedded-power-bi-report-to-web-app)
+- [Developing your application](#developing-your-application)
 
 ## Introduction
 
@@ -193,7 +201,7 @@ To get the tenant ID GUID, follow these steps:
 
 Obtain the username and password of the Power BI user you're using as your **master user**. This is the same user you used to create a workspace and upload a report to, in Power BI service.
 
-### Task 5 - Embed your content in Visual Studio and run locally
+### Task 6 - Embed your content in Visual Studio and run locally
 
 The Power BI embedded sample application allows you to create an embed for your customers Power BI app.
 
@@ -263,7 +271,7 @@ Follow these steps to modify the embed for your customers sample application, to
 >
 >   ![](Images/continue-localhost.png)
    
-### Task 6 - Publishing Embedded Power BI report to Web App
+### Task 7 - Publishing Embedded Power BI report to Web App
 
 1. In the Visual studio, right-click on the **AppOwnsData** in the Solution Explorer and select **Publish**.
 
