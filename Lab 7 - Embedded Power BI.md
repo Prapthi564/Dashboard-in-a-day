@@ -193,7 +193,7 @@ To get the tenant ID GUID, follow these steps:
 
 Obtain the username and password of the Power BI user you're using as your **master user**. This is the same user you used to create a workspace and upload a report to, in Power BI service.
 
-### Task 5 - Embed your content in Visual Studi and run locally.
+### Task 5 - Embed your content in Visual Studio and run locally
 
 The Power BI embedded sample application allows you to create an embed for your customers Power BI app.
 
@@ -223,7 +223,11 @@ Follow these steps to modify the embed for your customers sample application, to
 
    ![](Images/app-owns-data.png)
 
-7. In the Sign in to Visual Studio pop-up, click on **Sign in** use your admin credentials to sign in. 
+7. In the Sign in to Visual Studio pop-up, click on **Sign in** use your admin credentials to sign in.
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
    ![](Images/vs-signin.png)
       
@@ -234,6 +238,10 @@ Follow these steps to modify the embed for your customers sample application, to
 9. Update the **ClientID**, **TenantID**, and **ClientSecret** which you have copied earlier from the DIADApp.
 
 10. Update the  **PbiUsername** and **PbiPassword** by using your admin credentials.
+
+    * **PbiUsername**: <inject key="AzureAdUserEmail"></inject>
+
+    * **PbiPassword**: <inject key="AzureAdUserPassword"></inject>
 
 11. Update the **WorkspaceID** and **ReportID** with the values you have copied from the Power BI report URL.
 
@@ -251,7 +259,9 @@ Follow these steps to modify the embed for your customers sample application, to
 
     ![](Images/local-run-result.png)
 
->**Note**: You may receive error that your site is not secure, click on **Continue without Secure**.   
+>**Note**: You may receive error that your connection isn't private, select **Advanced** and click on **Continue to localhost (unsafe)**.
+>
+>   ![](Images/continue-localhost.png)
    
 ### Task 6 - Publishing Embedded Power BI report to Web App
 
@@ -267,7 +277,7 @@ Follow these steps to modify the embed for your customers sample application, to
 
    ![](Images/azure-app-service-publish.png)
 
-4. For App Service, click on the resource group **ODL-DIAD-DeploymentID** drop-down and select the **DIAD-webapp-DeploymentID** web app. Click on **Finish**.
+4. For App Service, click on the resource group **ODL-DIAD-<inject key="DeploymentID" enableCopy="false"/>** drop-down and select the **DIAD-webapp-<inject key="DeploymentID" enableCopy="false"/>** web app. Click on **Finish**.
 
    ![](Images/select-webapp-finish.png)
 
@@ -275,7 +285,7 @@ Follow these steps to modify the embed for your customers sample application, to
 
    ![](Images/ready-to-publish.png)
    
-6. Navigate back to Azure portal, search for **DIAD-webapp-DeploymentID** and select it.
+6. Navigate back to Azure portal, search for **DIAD-webapp-<inject key="DeploymentID" enableCopy="false"/>** and select it.
 
 7. In the Overview pane of the Web App, click on **URL**.
 
