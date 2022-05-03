@@ -15,7 +15,8 @@
   - [Task 5 - Get the embedding parameter values](#task5-get-the-embedding-parameter-values)
   - [Task 6 - Embed your content in Visual Studio and run locally](#task6-embed-your-content-in-visual-studio-and-run-locally)
   - [Task 7 - Publishing Embedded Power BI report to Web App](#task7-publishing-embedded-power-bi-report-to-web-app)
-- [Developing your application](#developing-your-application)
+  - [Developing your application](#developing-your-application)
+  - [References](#references)
 
 ## Introduction
 
@@ -308,12 +309,27 @@ Follow these steps to modify the embed for your customers sample application, to
 After configuring and running the embed for your customers sample application, you can start developing your own application.
 
 When you're ready, review the [move to production](https://docs.microsoft.com/en-us/power-bi/developer/embedded/move-to-production) requirements. You'll also need a [capacity](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embedded-capacity), and should review the [capacity planning](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embedded-capacity-planning) article to establish which SKU best suits your needs.
-   
-   
-   
-   
-   
-   
-   
-   
-   
+     
+ ## References
+
+Dashboard in a Day introduces you to some of the key functions available in Power BI. In the ribbon of the Power BI Desktop, the Help section has links to some great resources.
+
+   ![](Images/powerbi-01-53.png)
+
+Here are a few more resources that will help you with your next steps with Power BI.
+
+  - Getting started: http://powerbi.com
+  - Power BI Desktop: https://powerbi.microsoft.com/desktop
+  - Power BI Mobile: https://powerbi.microsoft.com/mobile
+  - Community site https://community.powerbi.com/
+  - Power BI Getting started support page: https://support.powerbi.com/knowledgebase/articles/430814-get-started-with-power-bi
+  - Support site https://support.powerbi.com/
+  - Feature requests https://ideas.powerbi.com/forums/265200-power-bi-ideas
+  - New ideas for using Power BI https://aka.ms/PBI_Comm_Ideas
+  - Power BI Courses http://aka.ms/pbi-create-reports
+  - Power Platform https://powerplatform.microsoft.com/en-us/instructor-led-training/
+  - Power Apps [Business Apps | Microsoft Power Apps](https://powerapps.microsoft.com/en-us/)
+  - Power Automate [Power Automate | Microsoft Power Platform](https://powerapps.microsoft.com/en-us/)
+  - Dataverse [What is Microsoft Dataverse? - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-intro)
+  - Embedded Power BI repotrt [Embed a Power BI report in an application for your customers | Microsoft Docs](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-customer-app)
+  
