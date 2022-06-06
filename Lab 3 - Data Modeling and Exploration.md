@@ -15,10 +15,10 @@
 ## Introduction
 
 In this lab you will learn how to:
- - create a range of different charts.
- - highlight and cross-filter.
- - create new groups and hierarchies.
- - add new measures to the model to do additional analysis.
+ - Create a range of different charts.
+ - Highlight and cross-filter.
+ - Create new groups and hierarchies.
+ - Add new measures to the model to do additional analysis.
 
 The lab includes steps for the user to follow along with associated screenshots that provide a visual aid. In the screenshots, sections are highlighted with red or orange boxes to indicate the area the user needs to focus on.
 
