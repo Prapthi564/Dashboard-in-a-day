@@ -31,7 +31,7 @@ Where you can share:
 - You can share from the Power BI mobile apps.
 - You can't share directly from Power BI Desktop. You publish reports from Power BI Desktop to the Power BI service.
 
-## Task 1: Azure Portal - Create a AD User
+## Task 1: Azure Portal - Create an AD User
 
 1. In the **LabVM**, click on the **Azure Portal** shortcut of Microsoft Edge browser which is created on the desktop 💻.
   
