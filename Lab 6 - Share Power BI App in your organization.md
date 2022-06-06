@@ -6,7 +6,8 @@
 
 <!-- TOC -->
 - [Introduction](#introduction)
-- [Power BI – Share a Report](#power-bi-share-a-report)
+- [Power Bi- Share Power Bi App](#power-BI–create-ad-user)
+  - [Power BI – Create AD user ](#power-bi-link-settings)
   - [Power BI – Link settings](#power-bi-link-settings)
   - [Power BI – Manage Permissions to a Report](#power-bi-manage-permissions-to-a-report)
 - [Power BI – Share a Dashboard](#power-bi-share-a-dashboard)
@@ -30,7 +31,7 @@ Where you can share:
 - You can share from the Power BI mobile apps.
 - You can't share directly from Power BI Desktop. You publish reports from Power BI Desktop to the Power BI service.
 
-## Power BI – Share a Report
+## Task 1: Azure Portal - Create a AD User
 
 1. In the **LabVM**, click on the **Azure Portal** shortcut of Microsoft Edge browser which is created on the desktop 💻.
   
@@ -125,7 +126,7 @@ Links for **People with existing access** do not have any additional settings be
 
 5. Additionally, if you don't have a Power BI Pro License, you can only copy and share links to **People with existing access**.
 
-## Power BI – Manage Permissions to a Report
+## Task 2: Power BI – Manage Permissions to a Report
 
 1. To manage permission and manage links that give access to the report, select **More options (...)** in the upper right of the sharing dialog, and then select **Manage permissions**.
 
@@ -151,7 +152,7 @@ Links for **People with existing access** do not have any additional settings be
 
 >**Note**: Each report cannot have more than 1,000 sharing links. In the unlikely case that your report hits this max limit, we recommend removing links that give **Specific people** access and instead grant those users direct access.
 
-## Power BI – Share a Dashboard
+## Task 3: Power BI – Share a Dashboard
 
 1. In a list of dashboards, or in an open dashboard, select **Share** ![](Images/powerbi-06-02.png).
 
@@ -172,7 +173,7 @@ You can share the dashboard with guest users whose addresses are outside your or
 
 >**Note**: The input box supports, at most, 100 separate users or groups. See [Share with more than 100 users](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards#share-with-more-than-100-separate-users) in this article for ways to share with more people.
    
-## Power BI – Manage Permissions to a Dashboard   
+## Task 4: Power BI – Manage Permissions to a Dashboard   
    
 1. To manage permission to the dashboard, select the **More options menu (...)** in the upper right of the **Share dashboard** dialog, and then select **Manage permissions**.
    
