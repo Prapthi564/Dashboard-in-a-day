@@ -1,0 +1,18 @@
+[
+  {
+    "Name": "Power BI Embedded Hands on Lab",
+    "Language": "English",
+    "Files": [
+      {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SQL-ChatGPT-Workshop/main/comman-getting-stated.md",
+        "Order": 1
+      }
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Dashboard-in-a-day/main/Lab%205%20-%20Collaboration.md",
+        "Order": 2
+      }
+    ]
+  }
+]
+
+
