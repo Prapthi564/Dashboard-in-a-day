@@ -1,5 +1,3 @@
-![Microsoft Power Platform.](../Images/powerbi-welcome-5.png 'Microsoft Power Platform')
-
 # Hands-on Lab: Create and publish PowerBI Dashboards & Reports
 
 **Contents** 
