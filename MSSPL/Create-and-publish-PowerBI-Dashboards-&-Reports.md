@@ -74,7 +74,7 @@ You will now leverage a report authored using Power BI Desktop to create a dashb
 
    ![](../Images/pb9.png) 
 
-1.  Click the **View** ribbon and then click **Mobile layout**
+1. Click the **View** ribbon and then click **Mobile layout**
 
    ![](../Images/pb10.png) 
 
