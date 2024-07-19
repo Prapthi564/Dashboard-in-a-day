@@ -122,7 +122,7 @@ dialog box opens.
 
 1. Click **Upload**.
 
-1. A file browser dialog box opens. Browse to the **DIAD** folder and then the **Data** folder (**/DIAD/Data**). Select **VanArsdel_WSLogo** file and click **open**
+1. A file browser dialog box opens. Browse to the **DIAD** folder and then the **Data** folder (**C:\DIAD\DIADL4\Data**). Select **VanArsdel_WSLogo** file and click **open**
 
    ![](../Images/pb20.png)
 
