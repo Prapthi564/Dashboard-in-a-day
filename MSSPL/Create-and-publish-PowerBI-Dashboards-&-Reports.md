@@ -49,7 +49,7 @@ You will now leverage a report authored using Power BI Desktop to create a dashb
 
    ![](../Images/pb6.png) 
 
->**Note**: Please wait for 15 mins and continue with the next task.
+   >**Note**: Please wait for 15 mins and continue with the next task.
 
 ### Task 1 - Power BI Service – Publishing Report
 
@@ -238,7 +238,7 @@ By the end of this section, we will have created a dashboard that looks like the
 
 1. From the top right corner, click the **down arrow**. Notice that the **manufacturer** slicer displays.
 
-    ![](../Images/pb34.png)
+   ![](../Images/pb34.png)
 
 1. Click **VanArsdel** in the slicer. This will filter the visuals.
 
@@ -246,11 +246,11 @@ By the end of this section, we will have created a dashboard that looks like the
   
 1. Pin the **Revenue, PY Sales(guage)** to the dashboard.
 
-    ![](../Images/pb35.png)
+   ![](../Images/pb35.png)
 
 1. Pin the **Revenue by Country** visual to the dashboard.
 
-    ![](../Images/pb36.png)
+   ![](../Images/pb36.png)
 
 1. Closeout the alert dialog boxes.
   
@@ -258,11 +258,11 @@ By the end of this section, we will have created a dashboard that looks like the
 
 1. From the left panel, select the **DIAD_<inject key="DeploymentID" enableCopy="false"/>**, click **VanArsdel** Dashboard Notice that all the visuals are pinned as tiles to the dashboard.
 
-    ![](../Images/pb37.png)    
+   ![](../Images/pb37.png)    
 
-    You will see the visuals on the dashboard like in the screenshot. Each visual on the dashboard is called a tile. The tiles represent the data chosen and are kept up to date as the data in the data model updates. Tiles are not interactive.
+    >**Note**: You will see the visuals on the dashboard like in the screenshot. Each visual on the dashboard is called a tile. The tiles represent the data chosen and are kept up to date as the data in the data model updates. Tiles are not interactive.
 
-    Let’s organize the dashboard.
+#### Let’s organize the dashboard.
 
 1. Resize and move the **gauge** tile as shown in the screenshot.
 
@@ -402,15 +402,15 @@ By the end of this section, we will have created a dashboard that looks like the
   
 1. From the top menu, click **Bookmarks** and then click **Show more bookmarks**. The **Bookmark** pane opens on the right. There are two options: **Personal** bookmarks and **Report** bookmarks.
 
-    ![](../Images/pb57.png)
+   ![](../Images/pb57.png)
   
-- Report bookmarks are the bookmarks the report author created (we did this in Power BI Desktop).
+    - Report bookmarks are the bookmarks the report author created (we did this in Power BI Desktop).
 
-- Personal bookmarks on the report are ones which the consumer can create on their own.
+    - Personal bookmarks on the report are ones which the consumer can create on their own.
 
 1. Click **View** in the **Report** bookmarks pane.
 
-    Notice that you can view and navigate through the bookmarks using the arrow at the bottom of the screen. This behavior is like in Power BI Desktop.
+    >**Note**: Notice that you can view and navigate through the bookmarks using the arrow at the bottom of the screen. This behavior is like in Power BI Desktop.
 
     ![](../Images/pb58.png)  
   
@@ -426,7 +426,7 @@ By the end of this section, we will have created a dashboard that looks like the
 
 1. Click **Quick Insights**.
 
-    ![](../Images/pb60.png)
+   ![](../Images/pb60.png)
   
     >**Note**: It might take a few minutes for the insights to be created. Once insights are ready, a message appears in the top right corner.
 
@@ -434,7 +434,7 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/pb61.png)
   
-    A quick insights report is displayed based on the dataset. This provides insights into data you may have missed and helps to get a quick start on creating dashboards. Hovering over each report provides an option to **Pin it** to a dashboard.
+    >**Note**: A quick insights report is displayed based on the dataset. This provides insights into data you may have missed and helps to get a quick start on creating dashboards. Hovering over each report provides an option to **Pin it** to a dashboard.
 
     ![](../Images/pb62.png)  
 
