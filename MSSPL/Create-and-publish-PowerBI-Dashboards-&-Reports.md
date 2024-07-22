@@ -1,4 +1,4 @@
-# Hands-on Lab: Create and publish PowerBI Dashboards & Reports
+# Hands-on Lab: Create and Publish PowerBI Dashboards & Reports
 
 **Contents** 
 
