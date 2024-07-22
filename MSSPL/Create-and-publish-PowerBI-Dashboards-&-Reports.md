@@ -24,7 +24,7 @@ You will now leverage a report authored using Power BI Desktop to create a dashb
 
 ### Pre-requisites
 
-1. Navigate to [http://app.powerbi.com](http://app.powerbi.com/) in the LabVM browser using the credentials below
+1. Navigate to [https://app.powerbi.com](https://app.powerbi.com/) in the LabVM browser using the credentials below
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
    - **Password:** <inject key="AzureAdUserPassword"></inject>
