@@ -62,7 +62,7 @@ You will now leverage a report authored using Power BI Desktop to create a dashb
 
    ![](../Images/pb7.png) 
 
-1. Navigate to the **DIAD** folder and then to the Reports folder (C:\DIAD\Reports) folder in the LabVM
+1. Navigate to the **DIAD** folder and then to the Reports folder (C:\DIAD\DIADL4\Reports) folder in the LabVM
 
 1. Open the DIAD Final Report.pbix file. 
 
