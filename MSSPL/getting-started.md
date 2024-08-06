@@ -27,6 +27,16 @@ In this lab, you'll start with a pre-created Power BI report and follow a struct
 ## Architecture Diagram
 
 ![image](../Images/arch1.PNG )
+
+## Explanation of Components
+
+- **Pre-Created Report**: A Power BI report with existing data and visuals, used as the foundation for further customization and enhancement tasks.
+
+- **Conditional Formatting**: A technique used to modify the appearance of report visuals based on data-driven conditions, highlighting key information.
+
+- **Custom Visuals**: Specialized visual elements imported into Power BI to offer unique data representations and enhance the visual appeal of the report.
+
+- **Power BI Service**: The cloud-based platform where the completed report is published for sharing, collaboration, and online access.
   
 ## Getting Started with Lab
  
