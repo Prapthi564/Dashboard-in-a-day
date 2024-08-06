@@ -8,7 +8,7 @@ In this lab, you will learn how to create and publish Power BI dashboards and re
 
 ## Objective
 
-Master report creation and dashboard management in Power BI. By the end of this lab, you will gain insights on:
+Understand report creation and dashboard management in Power BI. By the end of this lab, you will gain insights on:
 
 - **Create and Publish a Report**: Develop a comprehensive Power BI report, incorporating conditional formatting, custom visuals, and themes, and publish it to the Power BI Service.
 - **Build and Organize a Dashboard**: Construct and organize a Power BI dashboard to effectively visualize and present data from the report.
