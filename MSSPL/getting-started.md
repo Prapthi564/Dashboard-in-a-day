@@ -25,6 +25,8 @@ Master report creation and dashboard management in Power BI. By the end of this 
 In this lab, you'll start with a pre-created Power BI report and follow a structured process to enhance and publish it. Initially, you will apply conditional formatting to highlight important data points within the report. Next, you'll add logos to the visuals and filters to incorporate branding elements. After that, you'll import and integrate custom visuals to enrich the data representation. You will then apply a custom theme to ensure the report aligns with specific design guidelines. To enhance storytelling, you'll use bookmarks to create a narrative flow within the report. Finally, you'll publish the completed report to the Power BI Service for sharing and collaboration. Detailed instructions and visual aids will guide you through each step, ensuring you gain practical experience with Power BI's features.
 
 ## Architecture Diagram
+
+![image](../Images/arch1.PNG )
   
 ## Getting Started with Lab
  
