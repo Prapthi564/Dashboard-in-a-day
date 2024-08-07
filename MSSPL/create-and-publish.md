@@ -1,14 +1,12 @@
 # Hands-on Lab: Create and Publish PowerBI Dashboards & Reports
 
+In this lab, you will create and publish Power BI dashboards and reports, applying conditional formatting, adding logos, importing custom visuals, applying custom themes, and using bookmarks to enhance storytelling.
+
 ## Lab Objectives
 
 - Task 1 : Power BI Service – Publishing Report
 - Task 2 : Power BI – Building a Dashboard
   
-## Power BI Service
-
-You will now leverage a report authored using Power BI Desktop to create a dashboard for the VanArsdel data analysis team and CMO. A Power BI Desktop file with additional reports and visuals is provided. Please use this file for the next section of the lab.
-
 ### Pre-requisites
 
 1. Navigate to [https://app.powerbi.com](https://app.powerbi.com/) in the LabVM browser using the credentials below
