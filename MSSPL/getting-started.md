@@ -66,7 +66,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![image](../Images/pb66.png)
 
-### Click "Next" from the bottom right corner to embark on your Lab journey!
+In this labs, you will learn to create and publish Power BI dashboards and reports, focusing on report development, dashboard organization, and presentation enhancement. You'll work with features such as conditional formatting, custom visuals, themes, and bookmarks to effectively communicate data insights.
 
 ## Support Contact
 
@@ -75,6 +75,9 @@ The CloudLabs support team is available 24/7, 365 days a year, via email and liv
 Learner Support Contacts:
 
 - Email Support: labs-support@spektrasystems.com
+  
 - Live Chat Support: https://cloudlabs.ai/labs-support
+
+Click "Next" from the bottom right corner to embark on your Lab journey!
 
 ## Happy Learning!!
