@@ -1,4 +1,4 @@
-# Getting Started with Your Create and Publish PowerBI Dashboards & Reports Workshop
+# Create and Publish PowerBI Dashboards & Reports Workshop
 
 ## Overall Estimated Duration: 4 Hours
 
@@ -31,14 +31,11 @@ In this lab, you'll start with a pre-created Power BI report and follow a struct
 ## Explanation of Components
 
 - **Pre-Created Report**: A Power BI report with existing data and visuals, used as the foundation for further customization and enhancement tasks.
-
 - **Conditional Formatting**: A technique used to modify the appearance of report visuals based on data-driven conditions, highlighting key information.
-
 - **Custom Visuals**: Specialized visual elements imported into Power BI to offer unique data representations and enhance the visual appeal of the report.
-
 - **Power BI Service**: The cloud-based platform where the completed report is published for sharing, collaboration, and online access.
   
-## Getting Started with Lab
+## Getting Started with the Lab
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
@@ -78,6 +75,6 @@ Learner Support Contacts:
   
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
-Click "Next" from the bottom right corner to embark on your Lab journey!
+Click **Next** from the bottom right corner to embark on your Lab journey!
 
 ## Happy Learning!!
