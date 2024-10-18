@@ -62,7 +62,7 @@ You will now leverage a report authored using Power BI Desktop to create a dashb
 
    ![](../Images/pb7.png) 
 
-1. Navigate to the **DIAD** folder and then to the Reports folder (C:\DIAD\DIADL4\Reports) folder in the LabVM
+1. Click **Open** and select **Browse this device** and navigate to the **DIAD** folder and then to the Reports folder **C:\DIAD\DIADL4\Reports** folder in the LabVM
 
 1. Open the DIAD Final Report.pbix file. 
 
@@ -170,7 +170,7 @@ By the end of this section, we will have created a dashboard that looks like the
 
   ![](../Images/powerbi-04-20.png)
   
-1. Click the **DIAD Final Report.** You are navigated to the report you just uploaded.   
+1. Click on the **DIAD Final Report**, which is categorized as a **Report**. You will be redirected to the report that was recently uploaded.   
 
     ![](../Images/pb25.png)
   
