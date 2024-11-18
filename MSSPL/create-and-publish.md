@@ -290,7 +290,7 @@ Click the **pin** icon on the top right of the visual. The **Pin to dashboard** 
 
     >**Note**: You will see the visuals on the dashboard like in the screenshot. Each visual on the dashboard is called a tile. The tiles represent the data chosen and are kept up to date as the data in the data model updates. Tiles are not interactive.
 
-#### Let’s organize the dashboard.
+### Let’s organize the dashboard.
 
 1. Resize and move the **gauge** tile as shown in the screenshot.
 
@@ -398,7 +398,7 @@ Click the **pin** icon on the top right of the visual. The **Pin to dashboard** 
 
     ![](../Images/pb52.png)
 
-1. On the ***Manage alerts** page, click **+Add alert rule (1)** dialog and the click **Cancel (2)**
+1. On the **Manage alerts** page, click **+Add alert rule (1)** dialog and the click **Cancel (2)**
 
     ![](../Images/pb53.png)
   
