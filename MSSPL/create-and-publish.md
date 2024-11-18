@@ -110,15 +110,15 @@ while creating a mobile layout.
 
 1. Sign-in to Power BI using your user account. Once logged in, you will be taken to the **Home** screen.
 
-1. In the left panel, click on **Workspaces**. 
-   ![](../Images/pb17.png)
+1. In the left panel, click on **Workspaces**.
+   
+    ![](../Images/pb17.png)
 
-1. Click on **+ New workspace**. Then *Create a workspace*
-dialog box opens.
+1. Click on **+ New workspace**. Then *Create a workspace* dialog box opens.
 
-   ![](../Images/pb18.png)
+    ![](../Images/pb18.png)
 
-   >**Note**: Creating workspace is a **Pro feature**.
+    >**Note**: Creating workspace is a **Pro feature**.
 
 1. On the **Create a workspace** page, give the following details then click on **Apply (4)**.
 
