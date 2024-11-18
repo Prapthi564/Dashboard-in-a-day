@@ -26,13 +26,13 @@ In this lab, you will create and publish Power BI dashboards and reports, applyi
 
    ![](../Images/pb4.png)
  
-1. Once logged in, navigate to **settings** icon and select **Admin Portal**
+1. Once logged in, navigate to **Settings (1)** icon and select **Admin Portal (2)**
 
    ![](../Images/pb5.png) 
 
-1. On the **Tenant settings** search for **map** and select **Map and filled map visuals** and toggle the bar to **Enable** and click on **Apply** to enable the settings.
+1. On the **Tenant settings (1)**, search for **map (2)** then select **Map and filled map visuals (3)** then toggle the bar to **Enable (4)** and then click on **Apply (5)** to enable the settings.
 
-   ![](../Images/pb6.png) 
+   ![](../Images/pr1.png) 
 
    >**Note**: Please wait for 15 mins and continue with the next task.
 
@@ -55,26 +55,44 @@ In this lab, you will create and publish Power BI dashboards and reports, applyi
 
    ![](../Images/pb8.png) 
 
-1. Highlight the **Market Analysis** title and change the text color to black.
+1. On the **DIAD Final Report**, to enable the **Map and filled map visuals** like Power BI follow the below steps.
 
-   ![](../Images/pb9.png) 
+    - Click on **File** from the top left menu.
 
-1. Click the **View** ribbon and then click **Mobile layout**
+      ![](../Images/pr33.png)    
+
+    - Click on **Options and settings (1)** and then **Options (2)**  
+
+      ![](../Images/pr34.png) 
+
+    - Click on **Security (1)** then select the check box for **Map and Filled map visuals (2)** and then click on **OK (3)**
+
+      ![](../Images/pr35.png) 
+
+1. Highlight the **Market Analysis (1)** title and change the text color to **black (2)**.
+
+   ![](../Images/pr2.png) 
+
+1. Click the **View (1)** ribbon and then click **Mobile layout (2)**.
 
    ![](../Images/pb10.png) 
 
 1. Drag the **Market Analysis** title to the top of the phone layout.
 
-   ![](../Images/pb12.png)
+   ![](../Images/pr3.png)
 
-1. Click on the **View** tab and **turn on** the Selection pane. This allows you to change the layer order 
+   ![](../Images/pb12.png)   
+
+   >**Note:** If you recieve any pop up, click on **Close**.
+
+1. Click on the **View (1)** tab and **turn on (2)** the *Selection pane* by clicking on it. This allows you to change the layer order 
 while creating a mobile layout.
 
-   ![](../Images/pb13.png)
+   ![](../Images/pr6.png)
 
-1. Click on the **View** tab and turn off **Gridlines** and **Snap to Grid** and **turn off** the Selection pane.
+1. Click on the **View (1)** tab and turn off **Gridlines** and **Snap to Grid** **(2)** and **turn off (3)** the *Selection pane*.
 
-   ![](../Images/pb11.png)
+   ![](../Images/pr7.png)
 
 1. Drag the **Revenue by Year and Manufacturer** line chart below the card on the phone layout. Resize the line chart to stretch across the phone layout.
 
@@ -92,28 +110,33 @@ while creating a mobile layout.
 
 1. Sign-in to Power BI using your user account. Once logged in, you will be taken to the **Home** screen.
 
-1. In the left panel, click **Workspaces** and then click **+ New workspace**. The Create a workspace
-dialog box opens.
-
+1. In the left panel, click on **Workspaces**. 
    ![](../Images/pb17.png)
+
+1. Click on **+ New workspace**. Then *Create a workspace*
+dialog box opens.
 
    ![](../Images/pb18.png)
 
    >**Note**: Creating workspace is a **Pro feature**.
 
-1. In the **Name your workspace** text area, type **DIAD_<inject key="DeploymentID" enableCopy="false"/>**.
+1. On the **Create a workspace** page, give the following details then click on **Apply (4)**.
 
-1. In the **Description** text area, type **This is DIAD workspace**.
+    - In the **Name your workspace** text area, type **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)**.
 
-1. Click **Upload**.
+    - In the **Description** text area, type **This is DIAD workspace (2)**.
 
-1. A file browser dialog box opens. Browse to the **DIAD** folder and then the **Data** folder (**C:\DIAD\DIADL4\Data**). Select **VanArsdel_WSLogo** file and click **open**
+    - Click **Upload (3)**.
 
-   ![](../Images/pb20.png)
+      ![](../Images/pr4.png)
 
-1. Click **Apply** to create the workspace.
+    - A file browser dialog box opens. Browse to the **DIAD** folder and then the **Data** folder (**C:\DIAD\DIADL4\Data**). Select **VanArsdel_WSLogo (1)** file and click **open (2)**
 
-    ![](../Images/pb19.png)
+      ![](../Images/pr8.png)
+
+1. Click **Apply (4)** to create the workspace.
+
+    ![](../Images/pr37.png)
 
 1. Let’s publish the report to Power BI Service and then we will come back to the browser.
 
@@ -121,17 +144,26 @@ dialog box opens.
 
 1. Ensure **Mobile View** is **off.**
 
-1. From the **Home** tab, click **Publish.**
+1. From the **Home (1)** tab, click **Publish (2).**
 
     ![](../Images/pb21.png)
-  
-1. If you have not already logged into Power BI, a **Sign in** dialog box opens. Please sign in.
 
 1. Click on **Save**
 
     ![](../Images/pb22.png)
 
-1. Once you are signed in, the **Publish to Power BI** dialog box opens. select **DIAD_<inject key="DeploymentID" enableCopy="false"/>** in the dialog box and click **Select**
+1. If you have not already logged into Power BI, a **Sign in** dialog box opens. Please sign in.  
+
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+     ![](../Images/pr9.png) 
+    
+1. For **Stay signed in to all your apps** window, select **No, sign in to this app only**
+
+   ![](../Images/pb7.png) 
+
+1. Once you are signed in, the **Publish to Power BI** dialog box opens. select **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)** in the dialog box and click **Select (2)**
 
     ![](../Images/pb23.png)
 
@@ -145,7 +177,7 @@ dialog box opens.
     
 1. Once you are in the browser, in the left panel notice that under **DIAD_<inject key="DeploymentID" enableCopy="false"/>**, you see **Reports** has the **DIAD Final Report**.
 
-    ![](../Images/pb25.png) 
+    ![](../Images/pr13.png) 
 
 ### Task 2- Power BI – Building a Dashboard
 
@@ -157,13 +189,11 @@ By the end of this section, we will have created a dashboard that looks like the
   
 1. Click the **DIAD Final Report.** You are navigated to the report you just uploaded.   
 
-    ![](../Images/pb25.png)
+    ![](../Images/pr12.png)
   
-1. In the **map visual**, enable drill-down by **hovering** over the visual and click on the **down arrow** on the top right corner of the visual.
+1. In the **map visual**, enable drill-down by *hovering* over the visual and click on the **down arrow (1)** on the top right corner of the visual and then Select **Australia (2)** to drill-down to the **State** level.
 
     ![](../Images/pb26.png)
-
-1. Select **Australia** to drill-down to the **State** level.
 
 1. Now let’s pin visuals to the dashboard.
 
@@ -171,11 +201,9 @@ By the end of this section, we will have created a dashboard that looks like the
 
 1. Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
 
-    ![](../Images/pb28.png)
+    ![](../Images/pr11.png)
 
-1. We do not have a dashboard yet. Let’s create one. With **New dashboard** selected, enter **VanArsdel** in the text box.
-
-1. Click **Pin**.
+1. We do not have a dashboard yet. Let’s create one. With **New dashboard (1)** selected, enter **VanArsdel (2)** in the text box then click on **Pin (3)**.
   
     ![](../Images/pb29.png)
  
@@ -185,33 +213,34 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/pb30.png)
   
-1. From the left panel, click **Dashboards** then click **VanArsdel**.
+1. From the left panel, click on **VanArsdel (1)** and then click **VanArsdel Market Share (2)**.
+
+    ![](../Images/pr14.png)
 
     Notice the **VanArsdel Market Share** tile is pinned to the dashboard.
 
 1. Click **VanArsdel Market Share,** notice that you are navigated to the report.
 
+    ![](../Images/pr15.png)
+
     >**Note:** Tiles in the dashboard are not interactive.
 
-1. Hover over the **% Growth by Manufacturer** visual.
+1. Hover over the **% Growth by Manufacturer** visual. Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
 
-1. Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
+    ![](../Images/pr16.png)
 
-1. Make sure that **VanArsdel** is selected in the drop-down.
+1. Make sure that **Existing dashboard (1)** then **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
 
-1. Click **Pin**.
-
-    ![](../Images/pb31.png)
+    ![](../Images/pr17.png)
   
 1. Closeout the alert dialog boxes.
 
 1. Hover over the **Revenue by Year and Manufacturer** visual.
+Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
 
-1. Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
+    ![](../Images/pr18.png)
 
-1. Make sure **VanArsdel** is selected in the drop-down.
-
-1. Click **Pin**.
+1. Make sure that **Existing dashboard (1)** then **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
 
     ![](../Images/pb32.png)
    
@@ -227,21 +256,35 @@ By the end of this section, we will have created a dashboard that looks like the
 
 1. Click **VanArsdel** in the slicer. This will filter the visuals.
 
+   ![](../Images/pr19.png)
+
 1. From the top right corner, click the **up arrow**. Notice that the **manufacturer** slicer collapses.
   
-1. Pin the **Revenue, PY Sales(guage)** to the dashboard.
+   ![](../Images/pr20.png)
 
-   ![](../Images/pb35.png)
+1. **Pin** the **Revenue, PY Sales(guage)** to the dashboard.
 
-1. Pin the **Revenue by Country** visual to the dashboard.
+   ![](../Images/pr21.png)
 
-   ![](../Images/pb36.png)
+1. Make sure that **Existing dashboard (1)** then **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
+
+    ![](../Images/pb35.png)
+
+1. **Pin** the **Revenue by Country** visual to the dashboard.
+
+   ![](../Images/pr22.png)
+
+1. Make sure that **Existing dashboard (1)** then **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
+
+    ![](../Images/pb36.png)   
 
 1. Closeout the alert dialog boxes.
   
     >**Note:** The **VanArsdel** filter is applied to the tile that is pinned to the dashboard.
 
-1. From the left panel, select the **DIAD_<inject key="DeploymentID" enableCopy="false"/>**, click **VanArsdel** Dashboard Notice that all the visuals are pinned as tiles to the dashboard.
+1. From the left panel, select the **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)**, click **VanArsdel (2)** Dashboard Notice that all the visuals are pinned as tiles to the dashboard.
+
+   ![](../Images/pr23.png)
 
    ![](../Images/pb37.png)    
 
@@ -257,15 +300,15 @@ By the end of this section, we will have created a dashboard that looks like the
   
     Tiles can be of various sizes (1x1 to 5x5). Drag the tile using the bottom right corner to resize it. 
 
-1. Click the **Edit** dropdown and click **Add tile**. The **Add tile** dialog box opens.
+1. Click the **Edit (1)** dropdown and click **Add tile (2)**. 
 
     ![](../Images/pb39.png)
 
-1. Click **Image** as the source and select **Next**
+1. On the **Add tile** dialog box, click **Image (1)** as the source and select **Next (2)**.
 
     ![](../Images/pb40.png)
 
-1. In the **URL** text box, type the following URL: <https://raw.githubusercontent.com/CharlesSterling/DiadManu/master/Vanarsdel.png> and click **Apply**
+1. In the **URL** text box, type the following URL: <https://raw.githubusercontent.com/CharlesSterling/DiadManu/master/Vanarsdel.png> **(1)** and click **Apply (2)**.
 
     ![](../Images/pb41.png) 
   
@@ -283,29 +326,31 @@ By the end of this section, we will have created a dashboard that looks like the
 
 1. Hover over **Revenue by Country** tile.
 
-1. Click the ellipse in the top right corner of the tile.
-
-1. Click **Edit Details**. The **Tile Details** dialog box opens.
+1. Click the ellipse **(...) (1)** in the top right corner of the tile and then click **Edit Details (2)**. The **Tile Details** dialog box opens.
 
     ![](../Images/pb44.png)
 
-1. Change the **Title** to **VanArsdel Revenue**.
-
-1. Click **Apply.**
+1. On the **Tile Details** page, Change the **Title** to **VanArsdel Revenue (1)** then click **Apply (2)**
 
     ![](../Images/pb45.png)
 
 1. Now let’s create a visual that represents Market Share by country.
 
-1. Notice on the top of the visual, there is an option to **Ask a question about your data**. This is like **Ask a question in the desktop**.
+1. Notice on the top of the visual, there is an option to **Ask a question about your data**. This is like *Ask a question in the desktop*.
 
-1. In the text box, start typing **VanArsdel market share.** Notice that a card visual is created.
+   ![](../Images/pr24.png)
 
-1. Continue typing **VanArsdel market share by country**. Notice that a bar chart is created.
+1. In the text box, start typing **VanArsdel market share (1)** then click arrow icon **-> (2)**. Notice that a card visual is created.
 
-1. Continue typing **VanArsdel market share by country as treemap**. Notice that a treemap visual is created.
+   ![](../Images/pr25.png)
 
-    ![](../Images/pb46.png)
+1. Continue typing **VanArsdel market share by country (1)** then click arrow icon **-> (2)**. Notice that a bar chart is created.
+
+   ![](../Images/pr26.png)
+
+1. Continue typing **VanArsdel market share by country as treemap (1)** then click arrow icon **-> (2)**. Notice that a treemap visual is created.
+
+    ![](../Images/pr27.png)
   
     >**Note**: Remember that we renamed our tables. One of the reasons we did this was to make them user friendly for Q & A
 
@@ -313,7 +358,7 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/pb47.png)
 
-1. The **Pin to dashboard** dialog box opens. Click **Pin** to pin the visual to the **VanArsdel** dashboard.
+1. The **Pin to dashboard** dialog box opens. Make sure that **Existing dashboard (1)** then **VanArsdel (2)** is selected in the drop-down and then click **Pin (3)** to pin the visual to the **VanArsdel** dashboard.
 
     ![](../Images/pb48.png)
     
@@ -331,9 +376,7 @@ By the end of this section, we will have created a dashboard that looks like the
 
 1. Hover over the **line chart** on the dashboard.
 
-1. Click the **ellipse** on the top right corner.
-
-1. Click **View Insights**.
+1. Click the **ellipse (...) (1)** on the top right corner and then click **View Insights (2)**.
 
     ![](../Images/pb50.png)
   
@@ -345,17 +388,17 @@ By the end of this section, we will have created a dashboard that looks like the
 
 1. Click **Exit Focus mode** in the top left to navigate back to the dashboard.
 
+    ![](../Images/pr28.png)
+
 1. We want to be notified when VanArsdel’s Market Share goes above or below a threshold. We can set up alerts to achieve this.
 
 1. Hover over **VanArsdel Market Share** tile.
 
-1. Click on the **ellipse** in the top right corner of the tile.
-
-1. Click **Manage alerts**. The **Manage alerts** dialog box opens.
+1. Click on the **ellipse (...) (1)** in the top right corner of the tile the click **Manage alerts (2)**. The **Manage alerts** dialog box opens.
 
     ![](../Images/pb52.png)
 
-1. Click **Add alert rule** dialog.
+1. On the ***Manage alerts** page, click **+Add alert rule (1)** dialog and the click **Cancel (2)**
 
     ![](../Images/pb53.png)
   
@@ -367,9 +410,13 @@ By the end of this section, we will have created a dashboard that looks like the
 
 1. Click on the **VanArsdel Market Share** tile to navigate to the report.
 
-1. In the map visual, ensure it is at the **Country** level, right-click the **Australia** bubble, click **Drill through**, and click then **By Manufacturer**. 
+1. In the map visual, ensure it is at the **Country (1)** level, right-click the **Australia (2)** bubble, click **Drill through (3)** and click then **By Manufacturer (4)**. 
   
     ![](../Images/PB54.png)
+
+    >**Note:** If the map visual is not set to **Country** level, use the drill up arrow to set up.
+
+    ![](../Images/pr32.png)
 
     You will be navigated to the **By Manufacturer** page of the report with the **Australia** filter applied to the report page.
 
@@ -379,13 +426,15 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/pb55.png)
 
-1. Click the double-down arrow to drill down.
+1. Click the **+** icon to expand.
+
+    ![](../Images/pr29.png)
 
 1. Click **Back to report.**
 
     ![](../Images/pb56.png)
   
-1. From the top menu, click **Bookmarks** and then click **Show more bookmarks**. The **Bookmark** pane opens on the right. There are two options: **Personal** bookmarks and **Report** bookmarks.
+1. From the top right menu, click **Bookmarks (1)** and then click **Show more bookmarks (2)**. The **Bookmark** pane opens on the right. There are two options: **Personal** bookmarks and **Report** bookmarks.
 
    ![](../Images/pb57.png)
   
@@ -393,11 +442,13 @@ By the end of this section, we will have created a dashboard that looks like the
 
     - Personal bookmarks on the report are ones which the consumer can create on their own.
 
-1. Click **View** in the **Report** bookmarks pane.
+1. Click **View (2)** in the **Report bookmarks (1)** pane.
+
+    ![](../Images/pb58.png)  
 
     >**Note**: Notice that you can view and navigate through the bookmarks using the arrow at the bottom of the screen. This behavior is like in Power BI Desktop.
 
-    ![](../Images/pb58.png)  
+    ![](../Images/pr30.png)          
   
 1. Click **Exit** in the **Bookmark** pane to close it.
 
@@ -407,9 +458,7 @@ By the end of this section, we will have created a dashboard that looks like the
 
 1. In the left panel, click on **DIAD_<inject key="DeploymentID" enableCopy="false"/>** and then click **DIAD Final Report**.
 
-1. Click the **ellipse**.
-
-1. Click **Quick Insights**.
+1. Click the **ellipse (...) (1)** then click on **Quick Insights (2)**.
 
    ![](../Images/pb60.png)
   
