@@ -268,7 +268,7 @@ Click the **pin** icon on the top right of the visual. The **Pin to dashboard** 
 
 1. Make sure that **Existing dashboard (1)** then **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
 
-    ![](../Images/pb35.png)
+    ![](../Images/pr39.png)
 
 1. **Pin** the **Revenue by Country** visual to the dashboard.
 
@@ -276,7 +276,7 @@ Click the **pin** icon on the top right of the visual. The **Pin to dashboard** 
 
 1. Make sure that **Existing dashboard (1)** then **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
 
-    ![](../Images/pb36.png)   
+    ![](../Images/pr38.png)   
 
 1. Closeout the alert dialog boxes.
   
